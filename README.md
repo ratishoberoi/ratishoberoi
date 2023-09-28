@@ -1,7 +1,7 @@
 ![MasterHead](https://static.vecteezy.com/system/resources/previews/023/539/362/non_2x/artificial-intelligence-and-metaverse-background-banner-showing-ai-technology-generative-ai-photo.jpg)
 <h1 align="center">Hi 👋, I'm Ratish Oberoi</h1>
 <h3 align="center">A passionate AI/ML enthusiast from India</h3>
-<img align="right" alt="Coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsX7WFg0l1IqE5Z5fT-58oUEOhqqYJou3Sw&usqp=CAU">
+<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ratishoberoi&label=Profile%20views&color=0e75b6&style=flat" alt="ratishoberoi" /> </p>
 
