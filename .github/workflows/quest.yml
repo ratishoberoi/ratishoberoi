@@ -1,0 +1,131 @@
+name: Neural Nexus Quest Handler
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  handle-quest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Parse Issue and Update README
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python3 << 'PYEOF'
+          import os, re
+          from datetime import datetime
+
+          title = os.environ.get("ISSUE_TITLE", "")
+          body  = os.environ.get("ISSUE_BODY", "")
+          user  = os.environ.get("ISSUE_USER", "")
+          now   = datetime.utcnow().strftime("%Y-%m-%d")
+
+          with open("README.md", "r") as f:
+              readme = f.read()
+
+          # ── TRAVELER sign-in ──────────────────────────────────────────
+          if title.startswith("traveler|"):
+              parts = title.split("|")
+              archetype_key = parts[1] if len(parts) > 1 else "ranger"
+
+              icons = {
+                  "wizard":  "🧙",
+                  "warrior": "⚔️",
+                  "seer":    "🔮",
+                  "ranger":  "🌿",
+              }
+              icon = icons.get(archetype_key, "🌿")
+              archetype = archetype_key.capitalize()
+
+              new_row = f"| [@{user}](https://github.com/{user}) | {icon} {archetype} | {now} |"
+
+              placeholder = "| *Your name could be here...* | *Choose above* | *Just submitted!* |"
+              if placeholder in readme:
+                  readme = readme.replace(placeholder, new_row + "\n" + placeholder)
+              else:
+                  # append after table header
+                  header = "| Handle | Archetype | Quest Completed |"
+                  divider = "|--------|-----------|-----------------|"
+                  readme = readme.replace(
+                      divider + "\n" + "| *Your name could be here...*",
+                      divider + "\n" + new_row + "\n| *Your name could be here...*"
+                  )
+
+          # ── RIDDLE answer ─────────────────────────────────────────────
+          elif title.startswith("riddle|"):
+              answer_line = body.strip().split("\n")[0][:80]  # first line, max 80 chars
+              new_row = f"| [@{user}](https://github.com/{user}) | {answer_line} | ⏳ Pending |"
+
+              placeholder = "| *Be the first!* | — | — |"
+              if placeholder in readme:
+                  readme = readme.replace(placeholder, new_row + "\n" + placeholder)
+              else:
+                  header_div = "| Solver | Answer Submitted | Correct? |\n|--------|-----------------|----------|"
+                  readme = readme.replace(
+                      header_div + "\n| *Be the first!*",
+                      header_div + "\n" + new_row + "\n| *Be the first!*"
+                  )
+
+          else:
+              print("Issue title doesn't match any quest pattern. Skipping.")
+              exit(0)
+
+          with open("README.md", "w") as f:
+              f.write(readme)
+
+          print("README updated successfully!")
+          PYEOF
+
+      - name: Commit updated README
+        run: |
+          git config user.name  "Neural Nexus Bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "⚔️ Quest update: new entry from @${{ github.event.issue.user.login }}"
+          git push
+
+      - name: Close and thank the Issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const title = context.payload.issue.title;
+            let msg = "";
+
+            if (title.startsWith("traveler|")) {
+              const archetype = title.split("|")[1];
+              const icons = { wizard:"🧙", warrior:"⚔️", seer:"🔮", ranger:"🌿" };
+              const icon = icons[archetype] || "⚡";
+              msg = `${icon} **Welcome to the Neural Nexus, @${context.payload.issue.user.login}!**\n\nYou have been added to the Hall of Legends as a **${archetype.charAt(0).toUpperCase() + archetype.slice(1)}**.\n\nMay your gradients converge. 🧠`;
+            } else if (title.startsWith("riddle|")) {
+              msg = `🔮 **Answer received, @${context.payload.issue.user.login}!**\n\nYour answer has been logged in the Riddle Hall. The verdict (✅ or ❌) will be updated soon.\n\nKeep thinking. 🧩`;
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: msg
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });
