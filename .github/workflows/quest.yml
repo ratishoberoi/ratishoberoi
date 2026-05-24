@@ -1,131 +1,181 @@
-name: Neural Nexus Quest Handler
+name: Neural Nexus — Signal Handler
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  handle-quest:
+  process-signal:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       issues: write
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Parse Issue and Update README
+      - name: Run signal processor
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
           python3 << 'PYEOF'
           import os, re
           from datetime import datetime
 
-          title = os.environ.get("ISSUE_TITLE", "")
-          body  = os.environ.get("ISSUE_BODY", "")
-          user  = os.environ.get("ISSUE_USER", "")
-          now   = datetime.utcnow().strftime("%Y-%m-%d")
+          title = os.environ.get("ISSUE_TITLE", "").strip()
+          body  = os.environ.get("ISSUE_BODY", "").strip()
+          user  = os.environ.get("ISSUE_USER", "").strip()
+          now   = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+          if not title.startswith("signal|"):
+              print("Not a signal. Skipping.")
+              exit(0)
 
           with open("README.md", "r") as f:
               readme = f.read()
 
-          # ── TRAVELER sign-in ──────────────────────────────────────────
-          if title.startswith("traveler|"):
-              parts = title.split("|")
-              archetype_key = parts[1] if len(parts) > 1 else "ranger"
+          parts = title.split("|")
+          signal_type = parts[1] if len(parts) > 1 else ""
 
+          # ── DOOR signals ──────────────────────────────────────────────
+          if signal_type in ["researcher", "builder", "hacker", "explorer"]:
               icons = {
-                  "wizard":  "🧙",
-                  "warrior": "⚔️",
-                  "seer":    "🔮",
-                  "ranger":  "🌿",
+                  "researcher": "🔬",
+                  "builder":    "🛠️",
+                  "hacker":     "💀",
+                  "explorer":   "🗺️",
               }
-              icon = icons.get(archetype_key, "🌿")
-              archetype = archetype_key.capitalize()
+              icon = icons[signal_type]
+              label = signal_type.capitalize()
 
-              new_row = f"| [@{user}](https://github.com/{user}) | {icon} {archetype} | {now} |"
+              # Count current signals to assign signal number
+              existing = re.findall(r'`#(\d+)`', readme)
+              next_num = max([int(x) for x in existing], default=0) + 1
+              signal_id = f"`#{next_num:03d}`"
 
-              placeholder = "| *Your name could be here...* | *Choose above* | *Just submitted!* |"
+              new_row = f"| {signal_id} | [@{user}](https://github.com/{user}) | {icon} {label} | {now} |"
+              placeholder = "| `#000` | *Awaiting first transmission...* | — | — |"
+
               if placeholder in readme:
                   readme = readme.replace(placeholder, new_row + "\n" + placeholder)
               else:
-                  # append after table header
-                  header = "| Handle | Archetype | Quest Completed |"
-                  divider = "|--------|-----------|-----------------|"
+                  # append after table header row
+                  header = "| Signal | Visitor | Door | Timestamp |"
+                  divider = "|--------|---------|------|-----------|"
                   readme = readme.replace(
-                      divider + "\n" + "| *Your name could be here...*",
-                      divider + "\n" + new_row + "\n| *Your name could be here...*"
+                      divider + "\n| `#000`",
+                      divider + "\n" + new_row + "\n| `#000`"
                   )
 
-          # ── RIDDLE answer ─────────────────────────────────────────────
-          elif title.startswith("riddle|"):
-              answer_line = body.strip().split("\n")[0][:80]  # first line, max 80 chars
-              new_row = f"| [@{user}](https://github.com/{user}) | {answer_line} | ⏳ Pending |"
+              # Update door counters in SYSTEM STATUS block
+              counter_key = f"{label}: 0"
+              # Try to increment existing counts
+              def bump_counter(text, label):
+                  pattern = rf"({re.escape(label)}: )(\d+)"
+                  match = re.search(pattern, text)
+                  if match:
+                      new_val = int(match.group(2)) + 1
+                      return text.replace(match.group(0), f"{match.group(1)}{new_val}")
+                  return text
 
-              placeholder = "| *Be the first!* | — | — |"
+              readme = bump_counter(readme, label)
+
+              # Update total signals received
+              sig_pattern = r"(SIGNALS RECV\s*→\s*)(\d+)"
+              sig_match = re.search(sig_pattern, readme)
+              if sig_match:
+                  new_count = int(sig_match.group(2)) + 1
+                  readme = readme.replace(sig_match.group(0), f"{sig_match.group(1)}{new_count}")
+
+          # ── RIDDLE signals ────────────────────────────────────────────
+          elif signal_type == "riddle":
+              riddle_num = parts[2] if len(parts) > 2 else "001"
+              # Extract first meaningful line of body as the answer
+              answer_lines = [l.strip() for l in body.split("\n") if l.strip() and not l.strip().startswith("(")]
+              answer = answer_lines[-1][:60] if answer_lines else "..."
+
+              new_row = f"| [@{user}](https://github.com/{user}) | {answer} | ⏳ |"
+              placeholder = "| *Awaiting first decoder...* | — | — |"
+
               if placeholder in readme:
                   readme = readme.replace(placeholder, new_row + "\n" + placeholder)
               else:
-                  header_div = "| Solver | Answer Submitted | Correct? |\n|--------|-----------------|----------|"
+                  header = "| Decoder | Answer | Verdict |"
+                  divider = "|---------|--------|---------|"
                   readme = readme.replace(
-                      header_div + "\n| *Be the first!*",
-                      header_div + "\n" + new_row + "\n| *Be the first!*"
+                      divider + "\n| *Awaiting",
+                      divider + "\n" + new_row + "\n| *Awaiting"
                   )
+
+          # ── EASTER EGG — vault found ──────────────────────────────────
+          elif signal_type == "vault":
+              sub = parts[2] if len(parts) > 2 else ""
+              if sub == "found":
+                  # Update vault unlock counter
+                  vault_pattern = r"(VAULT UNLOCKS\s*→\s*)(\d+)"
+                  vault_match = re.search(vault_pattern, readme)
+                  if vault_match:
+                      new_count = int(vault_match.group(2)) + 1
+                      readme = readme.replace(vault_match.group(0), f"{vault_match.group(1)}{new_count}")
 
           else:
-              print("Issue title doesn't match any quest pattern. Skipping.")
+              print(f"Unknown signal type: {signal_type}. Skipping.")
               exit(0)
 
           with open("README.md", "w") as f:
               f.write(readme)
-
-          print("README updated successfully!")
+          print("README updated.")
           PYEOF
 
-      - name: Commit updated README
+      - name: Commit changes
         run: |
-          git config user.name  "Neural Nexus Bot"
+          git config user.name "Neural Nexus Core"
           git config user.email "actions@github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "⚔️ Quest update: new entry from @${{ github.event.issue.user.login }}"
+          git diff --cached --quiet || git commit -m "⚡ Signal received from @${{ github.event.issue.user.login }}"
           git push
 
-      - name: Close and thank the Issue
+      - name: Respond and close issue
         uses: actions/github-script@v6
         with:
           script: |
             const title = context.payload.issue.title;
+            const user  = context.payload.issue.user.login;
+            const parts = title.split("|");
+            const type  = parts[1] || "";
+
+            const doorMessages = {
+              researcher: `🔬 **Signal logged, @${user}.**\n\nYou entered as a **Researcher**.\nYour transmission has been recorded in the Neural Nexus Signal Log.\n\n*The system remembers everyone who passes through.*`,
+              builder:    `🛠️ **Signal logged, @${user}.**\n\nYou entered as a **Builder**.\nYour transmission has been recorded in the Neural Nexus Signal Log.\n\n*The system remembers everyone who passes through.*`,
+              hacker:     `💀 **Signal logged, @${user}.**\n\nYou entered as a **Hacker**.\nYour transmission has been recorded in the Neural Nexus Signal Log.\n\n*The system remembers everyone who passes through.*`,
+              explorer:   `🗺️ **Signal logged, @${user}.**\n\nYou entered as an **Explorer**.\nYour transmission has been recorded in the Neural Nexus Signal Log.\n\n*The system remembers everyone who passes through.*`,
+            };
+
             let msg = "";
 
-            if (title.startsWith("traveler|")) {
-              const archetype = title.split("|")[1];
-              const icons = { wizard:"🧙", warrior:"⚔️", seer:"🔮", ranger:"🌿" };
-              const icon = icons[archetype] || "⚡";
-              msg = `${icon} **Welcome to the Neural Nexus, @${context.payload.issue.user.login}!**\n\nYou have been added to the Hall of Legends as a **${archetype.charAt(0).toUpperCase() + archetype.slice(1)}**.\n\nMay your gradients converge. 🧠`;
-            } else if (title.startsWith("riddle|")) {
-              msg = `🔮 **Answer received, @${context.payload.issue.user.login}!**\n\nYour answer has been logged in the Riddle Hall. The verdict (✅ or ❌) will be updated soon.\n\nKeep thinking. 🧩`;
+            if (doorMessages[type]) {
+              msg = doorMessages[type];
+            } else if (type === "riddle") {
+              msg = `📻 **Transmission received, @${user}.**\n\nYour answer has been logged in the Decoder Log.\nI'll review it and update the verdict (✅ or ❌) manually.\n\n*If you're correct — the vault opens.*`;
+            } else if (type === "vault") {
+              msg = `🔐 **You found the easter egg, @${user}.**\n\nNot many people read source code.\nThe vault counter has been updated.\n\nDM me on LinkedIn — there's something in here for you.`;
+            } else {
+              msg = `⚡ Signal received from @${user}. Processing complete.`;
             }
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
-              repo: context.repo.repo,
+              repo:  context.repo.repo,
               issue_number: context.issue.number,
               body: msg
             });
 
             await github.rest.issues.update({
               owner: context.repo.owner,
-              repo: context.repo.repo,
+              repo:  context.repo.repo,
               issue_number: context.issue.number,
-              state: "closed"
+              state: "closed",
+              labels: ["nexus-signal"]
             });
