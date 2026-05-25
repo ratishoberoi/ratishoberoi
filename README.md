@@ -1,6 +1,6 @@
 <div align="center">
 
-# NEURAL NEXUS
+# RATISH OBEROI
 
 ### EX-CTO • AI/ML ENGINEER • SYSTEM BUILDER
 
@@ -16,6 +16,12 @@ PROFILE RAID..............................................[ LIVE ]
 ```
 
 </div>
+
+## Visitor Intro
+
+This is not a traditional GitHub profile.
+
+You are entering a live AI portfolio and interactive world boss raid. Fight bosses, earn loot, climb the leaderboard, and explore the systems, products, and AI engineering work behind the profile.
 
 ## About Me
 
@@ -459,8 +465,13 @@ GitHub Boss Raid uses GitHub Actions, issue forms, stateful gameplay, dynamic RE
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ratishoberoi&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&title_color=a78bfa&icon_color=a78bfa" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratishoberoi&layout=compact&theme=midnight-purple&hide_border=true&title_color=a78bfa" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ratishoberoi&theme=github_dark" width="100%" alt="Ratish Oberoi GitHub profile summary" />
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi repositories per language" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi most committed languages" />
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi GitHub stats" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ratishoberoi&theme=github_dark&utcOffset=5.5" alt="Ratish Oberoi productive time" />
 
 </div>
 
@@ -468,9 +479,8 @@ GitHub Boss Raid uses GitHub Actions, issue forms, stateful gameplay, dynamic RE
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ratishoberoi)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Grind-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/ratishoberoi)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Rank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/ratishoberoi3993)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ratishoberoi)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Grind-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ratishoberoi/)
 [![Email](https://img.shields.io/badge/Email-Signal-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ratishoberoi3993@gmail.com)
 
 </div>
