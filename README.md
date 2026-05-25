@@ -1,335 +1,488 @@
-<!--
-  ██████╗  █████╗ ████████╗██╗███████╗██╗  ██╗
-  ██╔══██╗██╔══██╗╚══██╔══╝██║██╔════╝██║  ██║
-  ██████╔╝███████║   ██║   ██║███████╗███████║
-  ██╔══██╗██╔══██║   ██║   ██║╚════██║██╔══██║
-  ██║  ██║██║  ██║   ██║   ██║███████║██║  ██║
-  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚══════╝╚═╝  ╚═╝
-
-  If you're reading this... you found the source code.
-  There's an easter egg somewhere in this file.
-  Hint: look for the coordinates.
--->
-
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:0d0d0d,60:1a0533,100:2d1b69&height=220&section=header&text=NEURAL%20NEXUS&fontSize=62&fontColor=a78bfa&animation=fadeIn&fontAlignY=40&desc=//%20LAB%20OF%20UNFINISHED%20THINGS%20//&descSize=16&descAlignY=62&descAlign=50&descFontColor=6d6d8a)
+# RATISH OBEROI
 
-</div>
+### EX-CTO • AI/ML ENGINEER • SYSTEM BUILDER
 
-<div align="center">
+**Raised ₹1 Cr+ Pre-Seed Funding**
+
+Building AI systems, LLM infrastructure, developer platforms, and intelligent automation.
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║  SYSTEM BOOT...............................................[ OK ]     ║
-║  LOADING MODULES...........................................[ OK ]     ║
-║  SCANNING VISITOR...........................................[ YOU ]   ║
-║                                                                      ║
-║  > This is not a portfolio.                                          ║
-║  > It is a machine that keeps learning.                              ║
-║  > You are inside it now.                                            ║
-╚══════════════════════════════════════════════════════════════════════╝
+AI SYSTEMS................................................[ ACTIVE ]
+LLM INFRASTRUCTURE........................................[ BUILDING ]
+AUTOMATION PLATFORMS......................................[ SHIPPING ]
+PROFILE RAID..............................................[ LIVE ]
 ```
 
 </div>
 
----
+## Visitor Intro
 
-## ⬡ SYSTEM STATUS
+This is not a traditional GitHub profile.
 
-> Live readings from the Neural Nexus core. Updated by the lab's own systems.
+You are entering a live AI portfolio and interactive world boss raid. Fight bosses, earn loot, climb the leaderboard, and explore the systems, products, and AI engineering work behind the profile.
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  OPERATOR      →  Ratish Oberoi                                     │
-│  LOCATION      →  India [28.6°N, 77.2°E]                           │
-│  STATUS        →  ACTIVE — building in the dark                     │
-│  UPTIME        →  Since 2001                                        │
-├─────────────────────────────────────────────────────────────────────┤
-│  ACTIVE MODULE →  Deep Learning / NLP / Computer Vision             │
-│  SIDE QUEST    →  Competitive Coding (DSA ranked mode)              │
-│  ANOMALY LOG   →  Humor module still underperforming                │
-├─────────────────────────────────────────────────────────────────────┤
-│  DOORS CHOSEN  →  [ 🔬 Researcher: 0 | 🛠 Builder: 0 ]             │
-│                   [ 💀 Hacker: 0    | 🗺 Explorer: 0 ]             │
-│  SIGNALS RECV  →  0                                                 │
-│  VAULT UNLOCKS →  0                                                 │
-│  LAST ANOMALY  →  None detected                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
+## About Me
 
-> ⚡ *These numbers change when visitors interact. You're part of the system now.*
+I build AI systems, intelligent developer tools, automation platforms, and production-grade software from concept to deployment.
 
----
+I am an **Ex-CTO**, **AI/ML Engineer**, **Full Stack Engineer**, and **System Builder** with experience raising **₹1 Cr+ in Pre-Seed funding** and building technical products end to end.
 
-## 🚪 THE DOORS
+Current focus areas:
 
-> Four paths. Pick the one that matches your frequency.
-> Each opens a prefilled GitHub Issue — just press Submit.
-> The lab registers your signal. Your name appears in the log.
+- Artificial Intelligence and Machine Learning systems
+- LLM systems, RAG pipelines, and retrieval infrastructure
+- Deep Learning, Computer Vision, and NLP
+- AI infrastructure, automation systems, and developer platforms
+- Full stack product engineering from architecture to deployment
 
-<div align="center">
+# 🔥 GLOBAL RAID ACTIVE
 
-| 🔬 RESEARCHER | 🛠️ BUILDER | 💀 HACKER | 🗺️ EXPLORER |
-|:---:|:---:|:---:|:---:|
-| *Theory. Models. Math.* | *Systems. Code. Ships.* | *Break. Exploit. Rebuild.* | *Curiosity. Discovery. Wander.* |
-| **[→ Enter](https://github.com/ratishoberoi/ratishoberoi/issues/new?title=signal%7Cresearcher&body=I+walked+through+the+Researcher+door.%0A%0AOne+thing+I%27m+currently+studying%3A%0A%0A(Just+hit+Submit+%E2%80%94+your+signal+will+be+logged+in+the+Nexus))** | **[→ Enter](https://github.com/ratishoberoi/ratishoberoi/issues/new?title=signal%7Cbuilder&body=I+walked+through+the+Builder+door.%0A%0AOne+thing+I%27m+currently+building%3A%0A%0A(Just+hit+Submit+%E2%80%94+your+signal+will+be+logged+in+the+Nexus))** | **[→ Enter](https://github.com/ratishoberoi/ratishoberoi/issues/new?title=signal%7Chacker&body=I+walked+through+the+Hacker+door.%0A%0AOne+thing+I%27ve+broken+and+fixed%3A%0A%0A(Just+hit+Submit+%E2%80%94+your+signal+will+be+logged+in+the+Nexus))** | **[→ Enter](https://github.com/ratishoberoi/ratishoberoi/issues/new?title=signal%7Cexplorer&body=I+walked+through+the+Explorer+door.%0A%0AOne+weird+thing+I+recently+discovered%3A%0A%0A(Just+hit+Submit+%E2%80%94+your+signal+will+be+logged+in+the+Nexus))** |
+## Current Boss
 
-</div>
+<p align="center">
+  <img src="./assets/boss_phases/gradient_vanisher_p1.gif" alt="The Gradient Vanisher raid encounter" width="100%">
+</p>
 
----
+## THE GRADIENT VANISHER
 
-## 📡 SIGNAL LOG
+### Fading Backprop Phantom
 
-> Everyone who stepped through a door. Registered by the system.
+**HP 1476 / 1500 (98%)**  
+`████████████████████████`
 
-| Signal | Visitor | Door | Timestamp |
-|--------|---------|------|-----------|
-| `#000` | *Awaiting first transmission...* | — | — |
+**Phase 1 of 4**  
+Normal form: a sharp silhouette traced by clean vector lines.
 
----
+<p align="center">
+  <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
+</p>
 
-## ⚗️ THE FORGE — Installed Modules
+<h1 align="center">
+  <a href="https://github.com/ratishoberoi/ratishoberoi/issues/new?template=attack.yml">⚔ ATTACK THIS BOSS ⚔</a>
+</h1>
+
+<p align="center">
+  <strong>⬆⬆⬆ CLICK TO ROLL DAMAGE + CLAIM LOOT ⬆⬆⬆</strong>
+</p>
+
+Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
+
+## Raid Rules
+
+### Attack Damage
+
+| Attack | Damage |
+| --- | ---: |
+| Slash | 5-20 |
+| Critical Strike | 0-100 |
+| Lucky Attack | 1-500 |
+
+### Drop Rates
+
+| Rarity | Drop Rate | Owned | Registry Items |
+| --- | ---: | ---: | ---: |
+| Common | 80% | 7 | 4 |
+| Rare | 15% | 7 | 4 |
+| Epic | 4% | 0 | 4 |
+| Legendary | 0.9% | 0 | 4 |
+| Mythic | 0.1% | 0 | 3 |
+
+Every attack is processed by GitHub Actions. Damage is applied to the shared boss, loot rolls automatically, the README updates, and the attack issue closes with the result.
 
 <details>
-<summary><b>[ CLICK TO INITIALIZE MODULE SCAN ]</b></summary>
+<summary>Loot Vault</summary>
 
-<br>
+**Latest Drop:** @ratishoberoi found Neural Fragment (Rare)  
+**Vault:** 14 relics held by 1 collectors  
+**Rare History:** 0 Legendary / 0 Mythic  
+**Top Collector:** @ratishoberoi (14 relics)
 
-**LANGUAGE CORES**
-```
-Python      ████████████████████  MASTERED
-C++         ██████████████░░░░░░  ADVANCED
-Java        ████████████░░░░░░░░  PROFICIENT
-C           ██████████░░░░░░░░░░  OPERATIONAL
-C#          ████████░░░░░░░░░░░░  OPERATIONAL
-```
+### Hall of Relics
 
-**AI / ML SUBSYSTEMS**
-```
-TensorFlow  ████████████████░░░░  ADVANCED
-PyTorch     ████████████████░░░░  ADVANCED
-Keras       ██████████████░░░░░░  PROFICIENT
-Scikit-Learn████████████████████  MASTERED
-OpenCV      ████████████░░░░░░░░  PROFICIENT
-Pandas      ████████████████████  MASTERED
-```
+| Relic Signal | Value |
+| --- | ---: |
+| Total Relics Held | 14 |
+| Active Collectors | 1 |
+| Legendary Discoveries | 0 |
+| Mythic Discoveries | 0 |
 
-**INTELLIGENCE DOMAINS**
-```
-Deep Learning     ██████████████░░░░░░  TRAINING
-NLP               ████████████░░░░░░░░  TRAINING
-Computer Vision   ████████████░░░░░░░░  TRAINING
-Reinforcement RL  ██████░░░░░░░░░░░░░░  INITIALIZING
-DSA / CompProg    ███████████████░░░░░  ADVANCED
-```
+| Rarity | Drop Rate | Owned | Registry Items |
+| --- | ---: | ---: | ---: |
+| Common | 80% | 7 | 4 |
+| Rare | 15% | 7 | 4 |
+| Epic | 4% | 0 | 4 |
+| Legendary | 0.9% | 0 | 4 |
+| Mythic | 0.1% | 0 | 3 |
 
-**INFRASTRUCTURE**
-```
-Git         ████████████████████  MASTERED
-MySQL       ████████████████░░░░  ADVANCED
-SQLite      ██████████████░░░░░░  PROFICIENT
-SQL Server  ████████████░░░░░░░░  PROFICIENT
-Arduino     ████████░░░░░░░░░░░░  OPERATIONAL
-```
+### Latest Drops
 
-<div align="center">
+| Time | Collector | Relic | Rarity |
+| --- | --- | --- | --- |
+| 2026-05-25T14:34:03.498Z | @ratishoberoi | Neural Fragment | Rare |
+| 2026-05-25T14:33:33.169Z | @ratishoberoi | Broken Dataset | Common |
+| 2026-05-25T14:04:06.805Z | @ratishoberoi | Corrupted CSV | Common |
+| 2026-05-25T14:03:37.524Z | @ratishoberoi | Corrupted CSV | Common |
+| 2026-05-25T14:03:11.476Z | @ratishoberoi | Broken Dataset | Common |
+| 2026-05-25T14:02:47.985Z | @ratishoberoi | Prompt Shard | Rare |
+| 2026-05-25T14:02:23.654Z | @ratishoberoi | Memory Fragment | Common |
+| 2026-05-25T14:01:55.675Z | @ratishoberoi | Gradient Crystal | Rare |
+| 2026-05-25T14:00:19.663Z | @ratishoberoi | Gradient Crystal | Rare |
+| 2026-05-25T07:25:41.744Z | @ratishoberoi | Gradient Crystal | Rare |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=OpenCV&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+### Legendary Discoveries
 
-</div>
+No legendary relics discovered yet.
+
+### Mythic Discoveries
+
+No mythic relics discovered yet.
+
+### Top Collectors
+
+| Rank | Collector | Total Relics | Unique | Legendary | Mythic |
+| ---: | --- | ---: | ---: | ---: | ---: |
+| 1 | @ratishoberoi | 14 | 7 | 0 | 0 |
+
+### Recent Loot
+
+| Time | Collector | Drop | Rarity | Damage |
+| --- | --- | --- | --- | ---: |
+| 2026-05-25T14:34:03.498Z | @ratishoberoi | Neural Fragment | Rare | 16 |
+| 2026-05-25T14:33:33.169Z | @ratishoberoi | Broken Dataset | Common | 8 |
+| 2026-05-25T14:04:06.805Z | @ratishoberoi | Corrupted CSV | Common | 297 |
+| 2026-05-25T14:03:37.524Z | @ratishoberoi | Corrupted CSV | Common | 118 |
+| 2026-05-25T14:03:11.476Z | @ratishoberoi | Broken Dataset | Common | 44 |
+| 2026-05-25T14:02:47.985Z | @ratishoberoi | Prompt Shard | Rare | 142 |
+| 2026-05-25T14:02:23.654Z | @ratishoberoi | Memory Fragment | Common | 397 |
+| 2026-05-25T14:01:55.675Z | @ratishoberoi | Gradient Crystal | Rare | 94 |
+| 2026-05-25T14:00:19.663Z | @ratishoberoi | Gradient Crystal | Rare | 322 |
+| 2026-05-25T07:25:41.744Z | @ratishoberoi | Gradient Crystal | Rare | 441 |
 
 </details>
 
----
+## 🏆 TOP RAIDERS
 
-## 🔐 THE VAULT
-
-> Three chambers. One is already open. Two require a key.
-
----
-
-### CHAMBER I — Open Access *(always visible)*
-
-```
-ARTIFACT: The Builder's Creed
-
-  Rule 01: Ship something broken before shipping nothing perfect.
-  Rule 02: If the loss is not decreasing, you are not learning.
-  Rule 03: Every dataset is lying. Find out how.
-  Rule 04: The best architecture is the one that runs.
-  Rule 05: Debug the assumptions before debugging the code.
-```
-
----
-
-### CHAMBER II — Locked 🔒 *(solve the weekly signal to unlock)*
-
-<details>
-<summary><b>[ ACCESS RESTRICTED — SOLVE THE WEEKLY SIGNAL TO ENTER ]</b></summary>
-
-<br>
-
-```
-> DECRYPTING...
-> ...
-> ...
-> DECRYPTION FAILED.
+> ### 🥇 #1 Raider
+> **@ratishoberoi**
 >
-> You need to solve the Weekly Signal first.
-> Submit the correct answer via the link below.
-> If you are right, I'll DM you what's in here.
-```
+> **Total Damage:** 1394  
+> **Attacks:** 14
 
-**[📡 Attempt Access via Weekly Signal →](#-weekly-signal)**
-
-</details>
-
----
-
-### CHAMBER III — Legend Only 🔥 *(reserved for the top contributor)*
-
-<details>
-<summary><b>[ LEGEND SLOT — CURRENTLY VACANT ]</b></summary>
-
-<br>
-
-```
-> This chamber belongs to whoever contributes the most.
-> Most signals sent. Most puzzles solved. Most consistent.
+> ### 🥈 #2 Raider
+> **Open Slot**
 >
-> Current Legend: [ VACANT ]
-> Claim it. It won't stay empty forever.
-```
+> **Total Damage:** 0  
+> **Attacks:** 0
 
-</details>
+> ### 🥉 #3 Raider
+> **Open Slot**
+>
+> **Total Damage:** 0  
+> **Attacks:** 0
 
----
+### Top 10 Attackers
 
-## 📻 WEEKLY SIGNAL
+| Rank | Attacker | Total Damage | Attacks |
+| ---: | --- | ---: | ---: |
+| 1 | @ratishoberoi | 1394 | 14 |
 
-> A new transmission every week. Decode it. Submit your answer.
-> Correct solvers are permanently logged.
+### Current Record Holders
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  TRANSMISSION #001                         [ ACTIVE ]        ║
-║  ──────────────────────────────────────────────────────────  ║
-║                                                              ║
-║  I am trained on your mistakes.                              ║
-║  I grow stronger when you feed me more.                      ║
-║  I generalize when you regularize.                           ║
-║  I overfit when you trust me too much.                       ║
-║  I am not intelligent. But I look like I am.                 ║
-║                                                              ║
-║  What am I?                                                  ║
-║                                                              ║
-║  HINT: Think in epochs, not years.                           ║
-╚══════════════════════════════════════════════════════════════╝
-```
+**Most Damage:** @ratishoberoi (1394)  
+**Most Loot:** @ratishoberoi (14)  
+**Most Executions:** @ratishoberoi (2)
 
-**[📡 Transmit Your Answer](https://github.com/ratishoberoi/ratishoberoi/issues/new?title=signal%7Criddle%7C001&body=TRANSMISSION+%23001+%E2%80%94+My+answer%3A%0A%0A(Write+your+answer+on+the+line+below+this+one)%0A%0A)**
+## ⚔ RECENT COMBAT
 
-### 📋 Decoder Log — Transmission #001
+### Last 10 Attacks
 
-| Decoder | Answer | Verdict |
-|---------|--------|---------|
-| *Awaiting first decoder...* | — | — |
+| Time | Attacker | Attack | Damage | Result |
+| --- | --- | --- | ---: | --- |
+| 2026-05-25T14:34:03.498Z | @ratishoberoi | Slash | 16 | Phase 1 |
+| 2026-05-25T14:33:33.169Z | @ratishoberoi | Slash | 8 | Phase 1 |
+| 2026-05-25T14:04:06.805Z | @ratishoberoi | Lucky Attack | 297 | Defeated boss |
+| 2026-05-25T14:03:37.524Z | @ratishoberoi | Lucky Attack | 118 | Phase 3 |
+| 2026-05-25T14:03:11.476Z | @ratishoberoi | Lucky Attack | 44 | Phase 3 |
+| 2026-05-25T14:02:47.985Z | @ratishoberoi | Lucky Attack | 142 | Phase 3 |
+| 2026-05-25T14:02:23.654Z | @ratishoberoi | Lucky Attack | 397 | Phase 3 |
+| 2026-05-25T14:01:55.675Z | @ratishoberoi | Lucky Attack | 94 | Phase 2 |
+| 2026-05-25T14:00:19.663Z | @ratishoberoi | Lucky Attack | 322 | Phase 1 |
+| 2026-05-25T07:25:41.744Z | @ratishoberoi | Lucky Attack | 441 | Defeated boss |
 
----
+## Live Pulse
 
-## 🧬 OPERATOR PROFILE
+**Last Attack:** @ratishoberoi hit for 16  
+**Latest Loot:** @ratishoberoi found Neural Fragment (Rare)  
+**Top Raider:** @ratishoberoi with 1394 damage  
+**Boss Killer:** @ratishoberoi (Hydra Hunter)
+
+## Phase Evolution
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="./assets/boss_phases/gradient_vanisher_p1.png" alt="The Gradient Vanisher phase 1" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
+      <sub>Phase 1</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/boss_phases/gradient_vanisher_p2.png" alt="The Gradient Vanisher phase 2" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <sub>Phase 2</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/boss_phases/gradient_vanisher_p3.png" alt="The Gradient Vanisher phase 3" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <sub>Phase 3</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="./assets/boss_phases/gradient_vanisher_p4.png" alt="The Gradient Vanisher phase 4" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <sub>Phase 4</sub>
+    </td>
+  </tr>
+</table>
+
+**🔥 Phase 1 → 🔒 Phase 2 → 🔒 Phase 3 → 🔒 Phase 4**  
+Current transformation: Normal form: a sharp silhouette traced by clean vector lines.  
+Phases remaining: **3**
+
+## WORLD BOSS CAMPAIGN
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/gpu_devourer_p4.png" alt="The GPU Devourer campaign artwork" width="360" style="">
+      <br><strong>☠ EXECUTED</strong><br>
+      <strong>Boss 1: The GPU Devourer</strong><br><sub>Executed by:<br>@ratishoberoi<br>Badge:<br>GPU Slayer<br>2026-05-25T07:25:41.744Z</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/data_leak_hydra_p4.png" alt="The Data Leak Hydra campaign artwork" width="360" style="">
+      <br><strong>☠ EXECUTED</strong><br>
+      <strong>Boss 2: The Data Leak Hydra</strong><br><sub>Executed by:<br>@ratishoberoi<br>Badge:<br>Hydra Hunter<br>2026-05-25T14:04:06.805Z</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/gradient_vanisher_p1.png" alt="The Gradient Vanisher campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <br><strong>⚔ CURRENT</strong><br>
+      <strong>Boss 3: The Gradient Vanisher</strong><br><sub>HP 1476 / 1500<br>Phase 1</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>LOCKED</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <strong>Boss 5: The Overfitted Beast</strong><br><sub>LOCKED</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/boss_phases/prompt_goblin_p1.png" alt="The Prompt Goblin campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
+      <strong>Boss 6: The Prompt Goblin</strong><br><sub>LOCKED</sub>
+    </td>
+  </tr>
+</table>
+
+## NEXT THREAT
+
+<table>
+  <tr>
+    <td align="center" width="45%">
+      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan locked next threat" width="360" style="opacity:0.45; filter:grayscale(1);">
+    </td>
+    <td width="55%">
+      <strong>The Hallucination Titan</strong><br>
+      A towering oracle that speaks in impossible outputs and bends reality around false predictions.<br><br>
+      <strong>Unlock Requirement:</strong> Execute The Gradient Vanisher.
+    </td>
+  </tr>
+</table>
+
+## Executioners
+
+<p align="center">
+  <img src="./assets/defeats/data_leak_hydra_20260525T140406805Z_ratishoberoi.svg" alt="The Data Leak Hydra execution card" width="720">
+</p>
 
 <details>
-<summary><b>[ LOAD OPERATOR FILE — RATISH OBEROI ]</b></summary>
+<summary>Executioner Records</summary>
 
-<br>
+## 👑 Executioner Hall
 
-```
-NAME        :  Ratish Oberoi
-ORIGIN      :  India
-DESIGNATION :  AI/ML Engineer in progress
-THREAT LVL  :  Growing
+| Boss | Executioner | Badge | Final Blow | Date |
+| --- | --- | --- | ---: | --- |
+| The Data Leak Hydra | @ratishoberoi<br>(Hydra Hunter) | Hydra Hunter | 297 | 2026-05-25T14:04:06.805Z |
+| The GPU Devourer | @ratishoberoi<br>(GPU Slayer) | GPU Slayer | 441 | 2026-05-25T07:25:41.744Z |
 
-PRIMARY OBJ :  Build systems that think
-SECONDARY   :  Win at competitive coding
-TERTIARY    :  Eventually be funny
+## Top Executioners
 
-CURRENT RUN :  Deep Learning, NLP, CNN architectures
-SIDE QUESTS :  HackerRank grind, LeetCode streak
-WEAK POINT  :  Humor module (accuracy: ~20%)
-
-CONTACT     :  ratishoberoi3993@gmail.com
-```
+| Executioner | Execution Count | First Execution | Latest Execution |
+| --- | ---: | --- | --- |
+| @ratishoberoi | 2 | 2026-05-25T07:25:41.744Z | 2026-05-25T14:04:06.805Z |
 
 </details>
 
----
+## Hall of Fame
 
-## 📊 CORE READINGS
+<details>
+<summary>Defeated Bosses</summary>
+
+### Cinematic Defeat Archive
+
+<table>
+  <tr>
+    <td align="center" width="55%">
+      <img src="./assets/boss_phases/data_leak_hydra_p4.png" alt="The Data Leak Hydra final form defeated" width="420">
+    </td>
+    <td width="45%">
+      <h3>The Data Leak Hydra</h3>
+      <strong>Executioner:</strong> @ratishoberoi<br>
+      <strong>Badge Earned:</strong> Hydra Hunter<br>
+      <strong>Final Blow:</strong> 297<br>
+      <strong>Execution Date:</strong> 2026-05-25T14:04:06.805Z
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="55%">
+      <img src="./assets/boss_phases/gpu_devourer_p4.png" alt="The GPU Devourer final form defeated" width="420">
+    </td>
+    <td width="45%">
+      <h3>The GPU Devourer</h3>
+      <strong>Executioner:</strong> @ratishoberoi<br>
+      <strong>Badge Earned:</strong> GPU Slayer<br>
+      <strong>Final Blow:</strong> 441<br>
+      <strong>Execution Date:</strong> 2026-05-25T07:25:41.744Z
+    </td>
+  </tr>
+</table>
+
+</details>
+
+## Key Achievements
+
+- Raised **₹1 Cr+ Pre-Seed funding** for a technology venture.
+- Operated as **CTO**, owning product architecture, engineering execution, and technical direction.
+- Built AI/ML systems end to end across model development, backend services, automation, and deployment.
+- Designed production automation systems using GitHub Actions, stateful workflows, and generated interfaces.
+- Built a GitHub-native raid platform with dynamic README rendering, stateful gameplay, execution history, and campaign progression.
+
+## Featured Projects
+
+### FORGE
+
+**Flagship project: multi-model AI engineering platform.**
+
+Forge focuses on multi-model orchestration, AI coding workflows, model routing, agentic execution, and LLM infrastructure for serious engineering work.
+
+### REPOMIND AI
+
+**AI-powered repository intelligence platform.**
+
+RepoMind AI is designed for codebase understanding, repository analysis, AI search, developer productivity, and knowledge extraction from complex software systems.
+
+### VERITAS RAG
+
+**Production-grade Retrieval-Augmented Generation system.**
+
+Veritas RAG focuses on RAG pipelines, document intelligence, semantic retrieval, vector search, and grounded knowledge generation.
+
+### GITHUB BOSS RAID
+
+**Interactive GitHub-native world boss campaign.**
+
+GitHub Boss Raid uses GitHub Actions, issue forms, stateful gameplay, dynamic README generation, loot, executioners, and campaign progression entirely inside GitHub.
+
+## Tech Stack
+
+### Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### AI / ML
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-111827?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### LLM / RAG
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Vector Databases](https://img.shields.io/badge/Vector%20Databases-4F46E5?style=for-the-badge)
+![Embeddings](https://img.shields.io/badge/Embeddings-7C3AED?style=for-the-badge)
+![Retrieval Systems](https://img.shields.io/badge/Retrieval%20Systems-0F766E?style=for-the-badge)
+![RAG Pipelines](https://img.shields.io/badge/RAG%20Pipelines-B91C1C?style=for-the-badge)
+
+### Backend
+
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### Databases
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### DevOps / Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+## GitHub Stats
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ratishoberoi&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&title_color=a78bfa&icon_color=a78bfa" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratishoberoi&layout=compact&theme=midnight-purple&hide_border=true&title_color=a78bfa" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ratishoberoi&theme=github_dark" width="100%" alt="Ratish Oberoi GitHub profile summary" />
 
-<br/>
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi repositories per language" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi most committed languages" />
 
-[![streak](https://github-readme-streak-stats.herokuapp.com/?user=ratishoberoi&theme=midnight-purple&hide_border=true&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa)](https://github.com/ratishoberoi)
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ratishoberoi&theme=github_dark" alt="Ratish Oberoi GitHub stats" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ratishoberoi&theme=github_dark&utcOffset=5.5" alt="Ratish Oberoi productive time" />
 
 </div>
 
----
-
-## 🌐 EXTERNAL LINKS
+## Contact
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ratishoberoi)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Grind-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/ratishoberoi)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Rank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/ratishoberoi3993)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ratishoberoi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ratishoberoi)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Grind-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ratishoberoi/)
 [![Email](https://img.shields.io/badge/Email-Signal-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ratishoberoi3993@gmail.com)
 
 </div>
 
----
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║   You reached the end of the lab. Most people don't.               ║
-║                                                                    ║
-║   If you interacted → the system registered you.                   ║
-║   If you solved the signal → the vault remembers.                  ║
-║   If you found the easter egg → you're different.                  ║
-║                                                                    ║
-║             // NEURAL NEXUS REMAINS ACTIVE //                      ║
-║                                                                    ║
-╚════════════════════════════════════════════════════════════════════╝
-```
-
-![views](https://komarev.com/ghpvc/?username=ratishoberoi&color=7c3aed&style=flat-square&label=systems+scanned)
-
-</div>
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:2d1b69,50:1a0533,100:000000&height=120&section=footer)
-
-<!-- 
-  EASTER EGG COORDINATES: 28.6139° N, 77.2090° E
-  If you found this, open an issue titled: signal|vault|found
-  Something will happen.
--->
+<!-- This README is generated by scripts/render_readme.js. -->

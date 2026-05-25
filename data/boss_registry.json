@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gpu_devourer",
+    "name": "The GPU Devourer",
+    "title": "Infinite Compute Maw",
+    "lore": "A furnace-beast that eats compute clusters and exhales molten tensors.",
+    "theme": "Machine consuming infinite compute",
+    "phase_1": "Normal form: a plated machine with a restrained thermal core.",
+    "phase_2": "Mutated form: cooling towers snap open into claws and intake fans become teeth.",
+    "phase_3": "Corrupted form: molten cache spills from its chassis and burns the grid.",
+    "phase_4": "Final Nightmare form: a starved compute singularity with an endless reactor mouth."
+  },
+  {
+    "id": "data_leak_hydra",
+    "name": "The Data Leak Hydra",
+    "title": "Breach-Headed Security Monster",
+    "lore": "Every severed secret becomes another head, hissing credentials into the dark.",
+    "theme": "Multi-headed security monster",
+    "phase_1": "Normal form: three encrypted heads watch the raid perimeter.",
+    "phase_2": "Mutated form: leaked keys grow into new heads and exposed ports split open.",
+    "phase_3": "Corrupted form: redacted files peel away as toxic data streams pour out.",
+    "phase_4": "Final Nightmare form: a many-headed breach storm wrapped around a broken vault."
+  },
+  {
+    "id": "gradient_vanisher",
+    "name": "The Gradient Vanisher",
+    "title": "Fading Backprop Phantom",
+    "lore": "An entity losing definition with every step, leaving dead gradients in its wake.",
+    "theme": "Entity fading from reality",
+    "phase_1": "Normal form: a sharp silhouette traced by clean vector lines.",
+    "phase_2": "Mutated form: its limbs smear into fading echoes that lag behind its body.",
+    "phase_3": "Corrupted form: transparent fractures erase pieces of its torso and face.",
+    "phase_4": "Final Nightmare form: a near-invisible void outlined by collapsing signal ghosts."
+  },
+  {
+    "id": "hallucination_titan",
+    "name": "The Hallucination Titan",
+    "title": "Corrupted AI God",
+    "lore": "A towering oracle that speaks in impossible outputs and bends reality around false predictions.",
+    "theme": "Corrupted AI god",
+    "phase_1": "Normal form: a luminous titan wrapped in stable prediction rings.",
+    "phase_2": "Mutated form: duplicate faces split from its skull and argue across the arena.",
+    "phase_3": "Corrupted form: error sigils tear through its body as hallucinated limbs emerge.",
+    "phase_4": "Final Nightmare form: a fractured godhead broadcasting contradictory realities."
+  },
+  {
+    "id": "overfitted_beast",
+    "name": "The Overfitted Beast",
+    "title": "Training-Data Abomination",
+    "lore": "A mutant model that memorized everything and learned nothing.",
+    "theme": "Mutated model obsessed with training data",
+    "phase_1": "Normal form: a chained beast covered in neat dataset labels.",
+    "phase_2": "Mutated form: sample cards fuse into armor and its claws become decision trees.",
+    "phase_3": "Corrupted form: memorized examples burst through its skin as jagged shards.",
+    "phase_4": "Final Nightmare form: a bloated archive-monster screaming duplicated training rows."
+  },
+  {
+    "id": "prompt_goblin",
+    "name": "The Prompt Goblin",
+    "title": "Chaotic Trickster AI",
+    "lore": "A small, vicious prompt thief that rewrites instructions while laughing in terminal noise.",
+    "theme": "Chaotic trickster AI",
+    "phase_1": "Normal form: a wiry trickster clutching a stolen command token.",
+    "phase_2": "Mutated form: prompt scrolls become claws and its grin splits into command flags.",
+    "phase_3": "Corrupted form: injection strings crawl across its body and scramble its outline.",
+    "phase_4": "Final Nightmare form: a glitchy command imp wearing a crown of broken system prompts."
+  }
+]

@@ -1,0 +1,52 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Boss terminated: The Data Leak Hydra</title>
+  <desc id="desc">ratishoberoi earned Hydra Hunter with 297 final damage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090704"/>
+      <stop offset=".45" stop-color="#221404"/>
+      <stop offset="1" stop-color="#050b14"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="160" y1="0" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff4a3"/>
+      <stop offset=".35" stop-color="#ffbf2e"/>
+      <stop offset=".72" stop-color="#ff2bd6"/>
+      <stop offset="1" stop-color="#23f7dd"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0H8" stroke="#ffbf2e" stroke-opacity=".1"/>
+    </pattern>
+    <style>
+      @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      @keyframes sweep { 0% { transform: translateX(-960px); } 100% { transform: translateX(960px); } }
+      @keyframes dash { to { stroke-dashoffset: -180; } }
+      .pulse { animation: pulse 1.8s ease-in-out infinite; }
+      .sweep { animation: sweep 4.6s linear infinite; }
+      .dash { animation: dash 3.6s linear infinite; }
+    </style>
+  </defs>
+  <rect width="960" height="540" rx="24" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#scan)"/>
+  <rect class="sweep" x="0" y="0" width="180" height="540" fill="#ffbf2e" fill-opacity=".065"/>
+  <rect x="28" y="28" width="904" height="484" rx="18" stroke="url(#gold)" stroke-width="3"/>
+  <rect x="52" y="52" width="856" height="436" rx="10" stroke="#ffbf2e" stroke-opacity=".45"/>
+  <text x="80" y="106" fill="#ffbf2e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="900" letter-spacing="3">BOSS TERMINATED</text>
+  <text x="80" y="170" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="48" font-weight="900">The Data Leak Hydra</text>
+  <text x="80" y="220" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24">Breach-Headed Security Monster</text>
+  <g filter="url(#glow)">
+    <path class="pulse" d="M480 258L526 332L612 354L556 420L562 506L480 474L398 506L404 420L348 354L434 332Z" fill="url(#gold)" fill-opacity=".88"/>
+    <circle cx="480" cy="388" r="74" fill="#020713" stroke="#ffbf2e" stroke-width="7"/>
+    <text x="480" y="414" text-anchor="middle" fill="#ffbf2e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="72" font-weight="900">👑</text>
+  </g>
+  <path class="dash" d="M78 260H882M78 456H882" stroke="#ffbf2e" stroke-width="5" stroke-dasharray="22 14"/>
+  <text x="80" y="306" fill="#ffbf2e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">EXECUTIONER</text>
+  <text x="80" y="350" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="34" font-weight="900">@ratishoberoi</text>
+  <text x="80" y="392" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26">Hydra Hunter</text>
+  <text x="628" y="306" fill="#ffbf2e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">FINAL DAMAGE</text>
+  <text x="628" y="354" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="44" font-weight="900">297</text>
+  <text x="628" y="404" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">2026-05-25T14:04:06.805Z</text>
+</svg>

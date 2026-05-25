@@ -1,0 +1,26 @@
+[
+  {
+    "username": "ratishoberoi",
+    "boss_id": "data_leak_hydra",
+    "boss_name": "The Data Leak Hydra",
+    "boss_title": "Breach-Headed Security Monster",
+    "final_damage": 297,
+    "timestamp": "2026-05-25T14:04:06.805Z",
+    "boss_phase": "Phase 3",
+    "boss_image": "assets/bosses/data_leak_hydra_p4.svg",
+    "executioner_badge": "Hydra Hunter",
+    "defeat_card": "assets/defeats/data_leak_hydra_20260525T140406805Z_ratishoberoi.svg"
+  },
+  {
+    "username": "ratishoberoi",
+    "boss_id": "gpu_devourer",
+    "boss_name": "The GPU Devourer",
+    "boss_title": "Infinite Compute Maw",
+    "final_damage": 441,
+    "timestamp": "2026-05-25T07:25:41.744Z",
+    "boss_phase": "Final Phase",
+    "boss_image": "assets/bosses/gpu_devourer_p4.svg",
+    "executioner_badge": "GPU Slayer",
+    "defeat_card": "assets/defeats/gpu_devourer_20260525T072541744Z_ratishoberoi.svg"
+  }
+]

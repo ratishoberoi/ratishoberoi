@@ -1,0 +1,212 @@
+[
+  {
+    "timestamp": "2026-05-25T14:34:03.498Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Slash",
+    "damage": 16,
+    "applied_damage": 16,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 14,
+    "loot": {
+      "item": "Neural Fragment",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:33:33.169Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Slash",
+    "damage": 8,
+    "applied_damage": 8,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 13,
+    "loot": {
+      "item": "Broken Dataset",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:04:06.805Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 297,
+    "applied_damage": 133,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Final Phase",
+    "defeated": true,
+    "issue_number": 12,
+    "loot": {
+      "item": "Corrupted CSV",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:03:37.524Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 118,
+    "applied_damage": 118,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 11,
+    "loot": {
+      "item": "Corrupted CSV",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:03:11.476Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 44,
+    "applied_damage": 44,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 10,
+    "loot": {
+      "item": "Broken Dataset",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:02:47.985Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 142,
+    "applied_damage": 142,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 9,
+    "loot": {
+      "item": "Prompt Shard",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:02:23.654Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 397,
+    "applied_damage": 397,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 8,
+    "loot": {
+      "item": "Memory Fragment",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:01:55.675Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 94,
+    "applied_damage": 94,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 2",
+    "defeated": false,
+    "issue_number": 7,
+    "loot": {
+      "item": "Gradient Crystal",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T14:00:19.663Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 322,
+    "applied_damage": 322,
+    "boss_name": "The Data Leak Hydra",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 6,
+    "loot": {
+      "item": "Gradient Crystal",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T07:25:41.744Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 441,
+    "applied_damage": 8,
+    "boss_name": "The GPU Devourer",
+    "phase_after_attack": "Final Phase",
+    "defeated": true,
+    "issue_number": 5,
+    "loot": {
+      "item": "Gradient Crystal",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T07:25:20.156Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 32,
+    "applied_damage": 32,
+    "boss_name": "The GPU Devourer",
+    "phase_after_attack": "Final Phase",
+    "defeated": false,
+    "issue_number": 4,
+    "loot": {
+      "item": "Lost Token",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T06:14:19.846Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Critical Strike",
+    "damage": 54,
+    "applied_damage": 54,
+    "boss_name": "The GPU Devourer",
+    "phase_after_attack": "Final Phase",
+    "defeated": false,
+    "issue_number": 3,
+    "loot": {
+      "item": "Prompt Shard",
+      "rarity": "Rare"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T06:10:41.242Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Slash",
+    "damage": 18,
+    "applied_damage": 18,
+    "boss_name": "The GPU Devourer",
+    "phase_after_attack": "Final Phase",
+    "defeated": false,
+    "issue_number": 2,
+    "loot": {
+      "item": "Corrupted CSV",
+      "rarity": "Common"
+    }
+  },
+  {
+    "timestamp": "2026-05-25T05:30:31.086Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Slash",
+    "damage": 8,
+    "applied_damage": 8,
+    "boss_name": "The GPU Devourer",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 1,
+    "loot": {
+      "item": "Neural Fragment",
+      "rarity": "Rare"
+    }
+  }
+]

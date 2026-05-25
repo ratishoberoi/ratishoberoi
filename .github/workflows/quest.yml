@@ -6,6 +6,7 @@ on:
 
 jobs:
   process-signal:
+    if: startsWith(github.event.issue.title, 'signal|')
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -1,0 +1,21 @@
+name: Attack the Raid Boss
+description: Strike the shared GitHub profile raid boss.
+title: "Raid Attack"
+labels:
+  - raid-attack
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Choose one attack. A GitHub Action will roll damage, update the boss, comment with the result, and close this issue.
+  - type: dropdown
+    id: attack_type
+    attributes:
+      label: Attack Type
+      description: Pick your attack.
+      options:
+        - Slash
+        - Critical Strike
+        - Lucky Attack
+    validations:
+      required: true

@@ -1,0 +1,7 @@
+{
+  "boss_id": "gradient_vanisher",
+  "boss_name": "The Gradient Vanisher",
+  "max_hp": 1500,
+  "current_hp": 1476,
+  "phase": "Phase 1"
+}
