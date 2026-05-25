@@ -1140,45 +1140,127 @@ function renderProfileHero() {
 
 # NEURAL NEXUS
 
-### AI/ML Builder // Competitive Programmer // Profile Raid Operator
+### EX-CTO • AI/ML ENGINEER • SYSTEM BUILDER
+
+**Raised ₹1 Cr+ Pre-Seed Funding**
+
+Building AI systems, LLM infrastructure, developer platforms, and intelligent automation.
 
 \`\`\`
-SYSTEM BOOT...............................................[ OK ]
-RAID LINK.................................................[ LIVE ]
-VISITOR DETECTED..........................................[ YOU ]
+AI SYSTEMS................................................[ ACTIVE ]
+LLM INFRASTRUCTURE........................................[ BUILDING ]
+AUTOMATION PLATFORMS......................................[ SHIPPING ]
+PROFILE RAID..............................................[ LIVE ]
 \`\`\`
 
 </div>`;
 }
 
 function renderProfileAbout() {
-  return `I am Ratish Oberoi, building across deep learning, NLP, computer vision, and practical systems. This profile is both a portfolio and an interactive GitHub-native raid arena.
+  return `I build AI systems, intelligent developer tools, automation platforms, and production-grade software from concept to deployment.
 
-Current focus:
+I am an **Ex-CTO**, **AI/ML Engineer**, **Full Stack Engineer**, and **System Builder** with experience raising **₹1 Cr+ in Pre-Seed funding** and building technical products end to end.
 
-- Deep Learning / NLP / Computer Vision
-- Competitive programming and DSA practice
-- GitHub-native automation experiments
-- Building systems that are useful, visible, and fun to interact with`;
+Current focus areas:
+
+- Artificial Intelligence and Machine Learning systems
+- LLM systems, RAG pipelines, and retrieval infrastructure
+- Deep Learning, Computer Vision, and NLP
+- AI infrastructure, automation systems, and developer platforms
+- Full stack product engineering from architecture to deployment`;
 }
 
 function renderProfileAchievements() {
-  return `- Built a GitHub-only interactive raid system using Issues, Actions, JSON state, README rendering, and local assets.
-- Preserved a live boss campaign with loot, executioners, leaderboards, and phase evolution.
-- Active learning track: AI/ML engineering, CNN architectures, NLP systems, and competitive coding.`;
+  return `- Raised **₹1 Cr+ Pre-Seed funding** for a technology venture.
+- Operated as **CTO**, owning product architecture, engineering execution, and technical direction.
+- Built AI/ML systems end to end across model development, backend services, automation, and deployment.
+- Designed production automation systems using GitHub Actions, stateful workflows, and generated interfaces.
+- Built a GitHub-native raid platform with dynamic README rendering, stateful gameplay, execution history, and campaign progression.`;
 }
 
 function renderFeaturedProjects() {
-  return `- **GitHub Boss Raid**: A profile-native raid encounter powered entirely by GitHub automation.
-- **Neural Nexus**: Interactive profile systems that respond to visitor signals.
-- **AI/ML Experiments**: Deep learning, NLP, and computer vision projects under active development.`;
+  return `### FORGE
+
+**Flagship project: multi-model AI engineering platform.**
+
+Forge focuses on multi-model orchestration, AI coding workflows, model routing, agentic execution, and LLM infrastructure for serious engineering work.
+
+### REPOMIND AI
+
+**AI-powered repository intelligence platform.**
+
+RepoMind AI is designed for codebase understanding, repository analysis, AI search, developer productivity, and knowledge extraction from complex software systems.
+
+### VERITAS RAG
+
+**Production-grade Retrieval-Augmented Generation system.**
+
+Veritas RAG focuses on RAG pipelines, document intelligence, semantic retrieval, vector search, and grounded knowledge generation.
+
+### GITHUB BOSS RAID
+
+**Interactive GitHub-native world boss campaign.**
+
+GitHub Boss Raid uses GitHub Actions, issue forms, stateful gameplay, dynamic README generation, loot, executioners, and campaign progression entirely inside GitHub.`;
 }
 
 function renderTechStack() {
-  return `**Languages:** Python, C++, Java, C, C#  
-**AI/ML:** PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas  
-**Data:** MySQL, SQLite, SQL Server  
-**Tools:** Git, GitHub Actions, JSON automation, Markdown, SVG/GIF rendering`;
+  return `### Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### AI / ML
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-111827?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### LLM / RAG
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Vector Databases](https://img.shields.io/badge/Vector%20Databases-4F46E5?style=for-the-badge)
+![Embeddings](https://img.shields.io/badge/Embeddings-7C3AED?style=for-the-badge)
+![Retrieval Systems](https://img.shields.io/badge/Retrieval%20Systems-0F766E?style=for-the-badge)
+![RAG Pipelines](https://img.shields.io/badge/RAG%20Pipelines-B91C1C?style=for-the-badge)
+
+### Backend
+
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### Databases
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### DevOps / Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)`;
 }
 
 function renderGitHubStats() {
