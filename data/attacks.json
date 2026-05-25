@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-25T17:54:50.759Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Critical Strike",
+    "damage": 46,
+    "applied_damage": 46,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 2,
+    "loot": {
+      "item": "Corrupted CSV",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-05-25T17:47:44.711Z",
     "attacker": "ratishoberoi",
     "attack_type": "Slash",

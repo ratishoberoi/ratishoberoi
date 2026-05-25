@@ -1,6 +1,6 @@
 <svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">The Gradient Vanisher raid boss</title>
-  <desc id="desc">Current HP 1459 of 1500. Phase 1.</desc>
+  <desc id="desc">Current HP 1413 of 1500. Phase 1.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#08111f"/>
@@ -44,10 +44,10 @@
   <text x="70" y="188" fill="#ff2bd6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="25" font-weight="800">Phase 1</text>
 
   <rect x="70" y="218" width="520" height="38" rx="6" fill="#020713" stroke="#35516c"/>
-  <rect class="pulse" x="70" y="218" width="504" height="38" rx="6" fill="url(#hp)" filter="url(#glow)"/>
+  <rect class="pulse" x="70" y="218" width="489" height="38" rx="6" fill="url(#hp)" filter="url(#glow)"/>
   <path d="M174 218V256M278 218V256M382 218V256M486 218V256" stroke="#020713" stroke-opacity="0.55"/>
-  <text x="610" y="247" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="900">1459 / 1500</text>
-  <text x="70" y="274" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">97% HP // Last hit: @ratishoberoi for 17</text>
+  <text x="610" y="247" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="900">1413 / 1500</text>
+  <text x="70" y="274" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">94% HP // Last hit: @ratishoberoi for 46</text>
   <rect x="68" y="286" width="112" height="28" rx="4" fill="#ff2bd6" fill-opacity="0.35" stroke="#ffe95e"/>
   <text x="124" y="305" text-anchor="middle" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">P1</text>
   <rect x="202" y="286" width="112" height="28" rx="4" fill="#061522" fill-opacity="0.75" stroke="#21445c"/>
@@ -56,32 +56,32 @@
   <text x="392" y="305" text-anchor="middle" fill="#8db5c8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">P3</text>
   <rect x="470" y="286" width="112" height="28" rx="4" fill="#061522" fill-opacity="0.75" stroke="#21445c"/>
   <text x="526" y="305" text-anchor="middle" fill="#8db5c8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">FINAL</text>
-  <text x="70" y="330" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">LOOT: 15 RELICS // 1 COLLECTORS</text>
+  <text x="70" y="330" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">LOOT: 16 RELICS // 1 COLLECTORS</text>
 
   <text x="638" y="104" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" letter-spacing="2">TOP ATTACKERS</text>
   <text x="647" y="142" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">1. @ratishoberoi</text>
-  <text x="872" y="142" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">1411</text>
+  <text x="872" y="142" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">1457</text>
   <text x="638" y="246" fill="#ff2bd6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">LATEST DROP</text>
   <text x="638" y="268" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Common: Corrupted CSV</text>
 
   <text x="638" y="326" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" letter-spacing="2">TOP COLLECTORS</text>
   <text x="638" y="350" fill="#ff2bd6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">No legendary signal yet</text>
   <text x="647" y="382" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">1. @ratishoberoi</text>
-  <text x="872" y="382" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">15 relics</text>
+  <text x="872" y="382" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">16 relics</text>
 
   <text x="70" y="356" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" letter-spacing="2">RECENT ATTACKS</text>
   <text x="70" y="370" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">@ratishoberoi</text>
-  <text x="246" y="370" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Slash</text>
-  <text x="474" y="370" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">17 dmg</text>
+  <text x="246" y="370" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Critical Strike</text>
+  <text x="474" y="370" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">46 dmg</text>
   <text x="70" y="398" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">@ratishoberoi</text>
   <text x="246" y="398" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Slash</text>
-  <text x="474" y="398" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">16 dmg</text>
+  <text x="474" y="398" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">17 dmg</text>
   <text x="70" y="426" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">@ratishoberoi</text>
   <text x="246" y="426" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Slash</text>
-  <text x="474" y="426" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">8 dmg</text>
+  <text x="474" y="426" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">16 dmg</text>
   <text x="70" y="454" fill="#c8d8ef" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">@ratishoberoi</text>
-  <text x="246" y="454" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Lucky Attack</text>
-  <text x="474" y="454" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">297 dmg</text>
+  <text x="246" y="454" fill="#23f7dd" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">Slash</text>
+  <text x="474" y="454" text-anchor="end" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">8 dmg</text>
 
   <g transform="translate(558 410)">
     <rect x="-58" y="-58" width="116" height="116" fill="#061522" stroke="#23f7dd" stroke-width="3"/>
