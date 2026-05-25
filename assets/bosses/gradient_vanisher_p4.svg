@@ -1,0 +1,207 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Gradient Vanisher Cosmic Collapse</title>
+  <desc id="desc">Final Nightmare form: a near-invisible void outlined by collapsing signal ghosts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050b14"/>
+      <stop offset=".48" stop-color="#12051c"/>
+      <stop offset="1" stop-color="#061b22"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="46%" r="50%">
+      <stop offset="0" stop-color="#b8f7ff" stop-opacity=".32"/>
+      <stop offset=".45" stop-color="#7a5cff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#020713" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="9" height="9" patternUnits="userSpaceOnUse">
+      <path d="M0 0H9" stroke="#b8f7ff" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="phaseImage">
+      <feColorMatrix type="saturate" values="1.88"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.24"/>
+        <feFuncG type="linear" slope="1.08"/>
+        <feFuncB type="linear" slope="1.16"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="heavyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes pulseGlow { 0%,100% { opacity: .46; } 50% { opacity: 1; } }
+      @keyframes energyMove { to { stroke-dashoffset: -260; transform: translateX(34px); } }
+      @keyframes scanMove { 0% { transform: translateY(-540px); } 100% { transform: translateY(540px); } }
+      @keyframes reactorFlicker { 0%,100% { opacity: .34; transform: scale(.94); } 40% { opacity: .92; transform: scale(1.08); } 70% { opacity: .58; transform: scale(1.02); } }
+      @keyframes corruptionPulse { 0%,100% { opacity: .22; } 50% { opacity: .78; } }
+      @keyframes eyeGlowPulse { 0%,100% { opacity: .56; } 50% { opacity: 1; } }
+      @keyframes threatPulse { 0%,100% { opacity: .52; } 50% { opacity: 1; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes sweep { 0% { transform: translateX(-960px); } 100% { transform: translateX(960px); } }
+      @keyframes emberRise { 0% { transform: translateY(60px); opacity: 0; } 35% { opacity: .9; } 100% { transform: translateY(-220px); opacity: 0; } }
+      @keyframes mouthFire { 0%,100% { opacity: .28; transform: scaleX(.92); } 50% { opacity: .88; transform: scaleX(1.08); } }
+      @keyframes heatDistort { 0%,100% { transform: translateX(-12px); opacity: .22; } 50% { transform: translateX(14px); opacity: .62; } }
+      @keyframes smokeDrift { 0% { transform: translateX(-30px); opacity: .04; } 50% { opacity: .18; } 100% { transform: translateX(42px); opacity: .04; } }
+      @keyframes dataFall { 0% { transform: translateY(-120px); opacity: 0; } 20% { opacity: .9; } 100% { transform: translateY(560px); opacity: 0; } }
+      @keyframes lockDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(12px,-18px); } }
+      @keyframes particleDrift { 0%,100% { transform: translate(0,0); opacity: .25; } 50% { transform: translate(20px,-26px); opacity: .8; } }
+      @keyframes orbitPlanet { to { transform: rotate(360deg); } }
+      @keyframes rotateEquation { 0%,100% { transform: rotate(-2deg); opacity: .34; } 50% { transform: rotate(3deg); opacity: .84; } }
+      @keyframes voidDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-18px,16px); } }
+      @keyframes apparitionFade { 0%,100% { opacity: .08; transform: scale(.92); } 50% { opacity: .46; transform: scale(1.08); } }
+      @keyframes fragmentDrift { 0%,100% { transform: translateY(0) rotate(0deg); opacity: .18; } 50% { transform: translateY(-24px) rotate(8deg); opacity: .58; } }
+      @keyframes chainMove { to { stroke-dashoffset: -180; } }
+      @keyframes lightningFlash { 0%,100% { opacity: .15; } 45% { opacity: 1; } 52% { opacity: .25; } 60% { opacity: .9; } }
+      @keyframes veinSurge { to { stroke-dashoffset: -140; } }
+      @keyframes magicRotate { to { transform: rotate(360deg); } }
+      @keyframes pageDrift { 0%,100% { transform: translate(0,0) rotate(0deg); opacity: .25; } 50% { transform: translate(18px,-24px) rotate(6deg); opacity: .74; } }
+      @keyframes promptFloat { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(-30px); opacity: .82; } }
+      .pulsing-glow { animation: pulseGlow 1.52s ease-in-out infinite; }
+      .energy-movement { animation: energyMove 3.4800000000000004s linear infinite; }
+      .scanline-movement { animation: scanMove 4.4s linear infinite; }
+      .reactor-flicker { transform-box: fill-box; transform-origin: center; animation: reactorFlicker 1.08s steps(3,end) infinite; }
+      .corruption-pulse { animation: corruptionPulse 1.92s ease-in-out infinite; }
+      .eye-glow-pulse { animation: eyeGlowPulse 1.2200000000000002s ease-in-out infinite; }
+      .threat-indicator-pulse { animation: threatPulse 1.18s ease-in-out infinite; }
+      .spin { transform-origin: 480px 270px; animation: spin 6s linear infinite; }
+      .sweep { animation: sweep 4.4s linear infinite; }
+      .ember-rise { animation: emberRise 2s ease-out infinite; }
+      .mouth-fire { transform-box: fill-box; transform-origin: center; animation: mouthFire 0.78s ease-in-out infinite; }
+      .heat-distortion { animation: heatDistort 1.8399999999999999s ease-in-out infinite; }
+      .smoke-drift { animation: smokeDrift 4.6s ease-in-out infinite; }
+      .data-waterfall { animation: dataFall 3.0799999999999996s linear infinite; }
+      .lock-drift { animation: lockDrift 3.08s ease-in-out infinite; }
+      .corruption-particle { animation: particleDrift 2.3200000000000003s ease-in-out infinite; }
+      .data-leak { animation: energyMove 2.6399999999999997s linear infinite; }
+      .orbiting-planet { transform-origin: 480px 270px; animation: orbitPlanet 7.2s linear infinite; }
+      .rotating-equation { transform-box: fill-box; transform-origin: center; animation: rotateEquation 3.6399999999999997s ease-in-out infinite; }
+      .void-particle-drift { animation: voidDrift 2.8s ease-in-out infinite; }
+      .orbiting-face { transform-origin: 480px 270px; animation: orbitPlanet 7.4s linear infinite; }
+      .apparition-fade { animation: apparitionFade 2.72s ease-in-out infinite; }
+      .memory-fragment { animation: fragmentDrift 3.5599999999999996s ease-in-out infinite; }
+      .moving-chain { animation: chainMove 2.6799999999999997s linear infinite; }
+      .lightning-arc { animation: lightningFlash 1.1600000000000001s steps(2,end) infinite; }
+      .glowing-vein { animation: veinSurge 2.2s linear infinite; }
+      .magic-circle-rotate { transform-origin: 480px 286px; animation: magicRotate 8.4s linear infinite; }
+      .spell-page-drift { animation: pageDrift 3.5999999999999996s ease-in-out infinite; }
+      .prompt-fragment { animation: promptFloat 2.76s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <image href="../boss_phases/gradient_vanisher_p4.png" x="0" y="0" width="960" height="540" preserveAspectRatio="xMidYMid slice" filter="url(#phaseImage)"/>
+  <rect width="960" height="540" fill="url(#core)" opacity="0.5800000000000001"/>
+  <rect class="corruption-pulse" width="960" height="540" fill="#7a5cff" fill-opacity=".12"/>
+  <rect width="960" height="540" fill="url(#scan)"/>
+  <rect class="scanline-movement" x="0" y="-540" width="960" height="86" fill="#b8f7ff" fill-opacity=".10"/>
+  <rect class="sweep" x="0" y="0" width="304" height="540" fill="#b8f7ff" fill-opacity=".045"/>
+  <path class="spin" d="M84 270C204 32 756 32 876 270C756 508 204 508 84 270Z" stroke="#7a5cff" stroke-opacity=".16" stroke-width="7" stroke-dasharray="26 18" fill="none"/>
+  <g filter="url(#heavyGlow)">
+    <path class="energy-movement" d="M-40 80C160 10 330 164 520 80C710 -4 850 148 1000 52" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 156C160 86 330 240 520 156C710 72 850 224 1000 128" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 232C160 162 330 316 520 232C710 148 850 300 1000 204" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="5" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 308C160 238 330 392 520 308C710 224 850 376 1000 280" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="6" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 384C160 314 330 468 520 384C710 300 850 452 1000 356" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 460C160 390 330 544 520 460C710 376 850 528 1000 432" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="corruption-pulse" d="M80 70L104 104L88 142L126 188" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M217 153L241 187L225 225L263 271" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M354 236L378 270L362 308L400 354" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M491 319L515 353L499 391L537 437" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M628 402L652 436L636 474L674 520" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M765 105L789 139L773 177L811 223" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M112 188L136 222L120 260L158 306" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M249 271L273 305L257 343L295 389" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M386 354L410 388L394 426L432 472" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M523 437L547 471L531 509L569 555" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M660 140L684 174L668 212L706 258" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M797 223L821 257L805 295L843 341" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M144 306L168 340L152 378L190 424" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M281 389L305 423L289 461L327 507" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M418 92L442 126L426 164L464 210" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M555 175L579 209L563 247L601 293" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <circle class="pulsing-glow" cx="482" cy="292" r="194" fill="#ff2bd6" fill-opacity=".12" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="438" cy="226" r="11" fill="#ff2bd6" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="522" cy="226" r="11" fill="#ff2bd6" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="reactor-flicker" cx="482" cy="292" r="90" fill="#b8f7ff" fill-opacity="0.32" filter="url(#glow)"/>
+    <circle class="corruption-pulse" cx="482" cy="292" r="164" stroke="#7a5cff" stroke-opacity="0.60" stroke-width="10" fill="none"/>
+    <path class="threat-indicator-pulse" d="M36 42H214L250 78H36Z" fill="#020713" fill-opacity=".78" stroke="#b8f7ff" stroke-width="2"/>
+    <circle class="reactor-flicker" cx="220" cy="126" r="70" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="220" cy="126" r="90" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="383" cy="223" r="78" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="383" cy="223" r="98" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="546" cy="320" r="86" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="546" cy="320" r="106" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="709" cy="131" r="70" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="709" cy="131" r="90" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="312" cy="228" r="78" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="312" cy="228" r="98" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="475" cy="325" r="86" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="475" cy="325" r="106" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="638" cy="136" r="70" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="638" cy="136" r="90" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <g class="orbiting-planet"><circle cx="642" cy="152" r="12" fill="#ff2bd6"/><circle cx="702" cy="220" r="9" fill="#7a5cff"/></g>
+    <text class="rotating-equation" x="172" y="128" fill="#ff2bd6" fill-opacity=".66" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">∂L/∂x → 0</text>
+    <text class="rotating-equation" x="610" y="430" fill="#7a5cff" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26">Σ∇ collapse</text>
+    <circle class="void-particle-drift" cx="40" cy="70" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="129" cy="201" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="218" cy="332" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="307" cy="463" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="396" cy="174" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="485" cy="305" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="574" cy="436" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="663" cy="147" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="752" cy="278" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="841" cy="409" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="50" cy="120" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="139" cy="251" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="228" cy="382" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="317" cy="93" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="406" cy="224" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="495" cy="355" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="584" cy="486" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="673" cy="197" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="762" cy="328" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="851" cy="459" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="60" cy="170" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="149" cy="301" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="238" cy="432" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="327" cy="143" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="416" cy="274" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="505" cy="405" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="594" cy="116" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="683" cy="247" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="772" cy="378" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="861" cy="89" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="70" cy="220" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="159" cy="351" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="248" cy="482" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="337" cy="193" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="426" cy="324" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="515" cy="455" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="604" cy="166" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="693" cy="297" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="782" cy="428" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="871" cy="139" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="80" cy="270" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="169" cy="401" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="258" cy="112" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="347" cy="243" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="436" cy="374" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="525" cy="85" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="614" cy="216" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="703" cy="347" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="792" cy="478" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="881" cy="189" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="90" cy="320" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="179" cy="451" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <path class="corruption-pulse" d="M128 76L824 488M846 58L96 502M304 28L612 530M54 248L924 316" stroke="#7a5cff" stroke-width="12" stroke-opacity=".62" stroke-dasharray="16 18" fill="none"/>
+    <path d="M0 0H960V540H0Z" fill="#000" fill-opacity=".16"/><path class="energy-movement" d="M96 166C280 92 396 238 518 178C684 96 804 124 960 66" stroke="#ff2bd6" stroke-width="9" stroke-dasharray="20 18" fill="none"/>
+  </g>
+  <g filter="url(#glow)">
+    <text x="58" y="66" fill="#ff2bd6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">PHASE 4</text>
+    <text x="58" y="92" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="900">Cosmic Collapse</text>
+    <circle class="threat-indicator-pulse" cx="902" cy="58" r="28" fill="#b8f7ff" filter="url(#glow)"/>
+  </g>
+</svg>

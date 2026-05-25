@@ -1,0 +1,206 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Prompt Goblin Prompt Lord</title>
+  <desc id="desc">Mutated form: prompt scrolls become claws and its grin splits into command flags.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050b14"/>
+      <stop offset=".48" stop-color="#12051c"/>
+      <stop offset="1" stop-color="#061b22"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="46%" r="50%">
+      <stop offset="0" stop-color="#9dff28" stop-opacity=".32"/>
+      <stop offset=".45" stop-color="#ff2bd6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#020713" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="9" height="9" patternUnits="userSpaceOnUse">
+      <path d="M0 0H9" stroke="#9dff28" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="phaseImage">
+      <feColorMatrix type="saturate" values="1.44"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.12"/>
+        <feFuncG type="linear" slope="1.04"/>
+        <feFuncB type="linear" slope="1.08"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="heavyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes pulseGlow { 0%,100% { opacity: .46; } 50% { opacity: 1; } }
+      @keyframes energyMove { to { stroke-dashoffset: -260; transform: translateX(34px); } }
+      @keyframes scanMove { 0% { transform: translateY(-540px); } 100% { transform: translateY(540px); } }
+      @keyframes reactorFlicker { 0%,100% { opacity: .34; transform: scale(.94); } 40% { opacity: .92; transform: scale(1.08); } 70% { opacity: .58; transform: scale(1.02); } }
+      @keyframes corruptionPulse { 0%,100% { opacity: .22; } 50% { opacity: .78; } }
+      @keyframes eyeGlowPulse { 0%,100% { opacity: .56; } 50% { opacity: 1; } }
+      @keyframes threatPulse { 0%,100% { opacity: .52; } 50% { opacity: 1; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes sweep { 0% { transform: translateX(-960px); } 100% { transform: translateX(960px); } }
+      @keyframes emberRise { 0% { transform: translateY(60px); opacity: 0; } 35% { opacity: .9; } 100% { transform: translateY(-220px); opacity: 0; } }
+      @keyframes mouthFire { 0%,100% { opacity: .28; transform: scaleX(.92); } 50% { opacity: .88; transform: scaleX(1.08); } }
+      @keyframes heatDistort { 0%,100% { transform: translateX(-12px); opacity: .22; } 50% { transform: translateX(14px); opacity: .62; } }
+      @keyframes smokeDrift { 0% { transform: translateX(-30px); opacity: .04; } 50% { opacity: .18; } 100% { transform: translateX(42px); opacity: .04; } }
+      @keyframes dataFall { 0% { transform: translateY(-120px); opacity: 0; } 20% { opacity: .9; } 100% { transform: translateY(560px); opacity: 0; } }
+      @keyframes lockDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(12px,-18px); } }
+      @keyframes particleDrift { 0%,100% { transform: translate(0,0); opacity: .25; } 50% { transform: translate(20px,-26px); opacity: .8; } }
+      @keyframes orbitPlanet { to { transform: rotate(360deg); } }
+      @keyframes rotateEquation { 0%,100% { transform: rotate(-2deg); opacity: .34; } 50% { transform: rotate(3deg); opacity: .84; } }
+      @keyframes voidDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-18px,16px); } }
+      @keyframes apparitionFade { 0%,100% { opacity: .08; transform: scale(.92); } 50% { opacity: .46; transform: scale(1.08); } }
+      @keyframes fragmentDrift { 0%,100% { transform: translateY(0) rotate(0deg); opacity: .18; } 50% { transform: translateY(-24px) rotate(8deg); opacity: .58; } }
+      @keyframes chainMove { to { stroke-dashoffset: -180; } }
+      @keyframes lightningFlash { 0%,100% { opacity: .15; } 45% { opacity: 1; } 52% { opacity: .25; } 60% { opacity: .9; } }
+      @keyframes veinSurge { to { stroke-dashoffset: -140; } }
+      @keyframes magicRotate { to { transform: rotate(360deg); } }
+      @keyframes pageDrift { 0%,100% { transform: translate(0,0) rotate(0deg); opacity: .25; } 50% { transform: translate(18px,-24px) rotate(6deg); opacity: .74; } }
+      @keyframes promptFloat { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(-30px); opacity: .82; } }
+      .pulsing-glow { animation: pulseGlow 1.96s ease-in-out infinite; }
+      .energy-movement { animation: energyMove 4.44s linear infinite; }
+      .scanline-movement { animation: scanMove 5.1s linear infinite; }
+      .reactor-flicker { transform-box: fill-box; transform-origin: center; animation: reactorFlicker 1.44s steps(3,end) infinite; }
+      .corruption-pulse { animation: corruptionPulse 2.36s ease-in-out infinite; }
+      .eye-glow-pulse { animation: eyeGlowPulse 1.6600000000000001s ease-in-out infinite; }
+      .threat-indicator-pulse { animation: threatPulse 1.54s ease-in-out infinite; }
+      .spin { transform-origin: 480px 270px; animation: spin 10s linear infinite; }
+      .sweep { animation: sweep 5.2s linear infinite; }
+      .ember-rise { animation: emberRise 2.7s ease-out infinite; }
+      .mouth-fire { transform-box: fill-box; transform-origin: center; animation: mouthFire 1.1400000000000001s ease-in-out infinite; }
+      .heat-distortion { animation: heatDistort 2.32s ease-in-out infinite; }
+      .smoke-drift { animation: smokeDrift 5.2s ease-in-out infinite; }
+      .data-waterfall { animation: dataFall 3.84s linear infinite; }
+      .lock-drift { animation: lockDrift 3.64s ease-in-out infinite; }
+      .corruption-particle { animation: particleDrift 2.7600000000000002s ease-in-out infinite; }
+      .data-leak { animation: energyMove 3.32s linear infinite; }
+      .orbiting-planet { transform-origin: 480px 270px; animation: orbitPlanet 9.6s linear infinite; }
+      .rotating-equation { transform-box: fill-box; transform-origin: center; animation: rotateEquation 4.32s ease-in-out infinite; }
+      .void-particle-drift { animation: voidDrift 3.4s ease-in-out infinite; }
+      .orbiting-face { transform-origin: 480px 270px; animation: orbitPlanet 10.2s linear infinite; }
+      .apparition-fade { animation: apparitionFade 3.16s ease-in-out infinite; }
+      .memory-fragment { animation: fragmentDrift 4.08s ease-in-out infinite; }
+      .moving-chain { animation: chainMove 3.2399999999999998s linear infinite; }
+      .lightning-arc { animation: lightningFlash 1.48s steps(2,end) infinite; }
+      .glowing-vein { animation: veinSurge 2.7s linear infinite; }
+      .magic-circle-rotate { transform-origin: 480px 286px; animation: magicRotate 11.2s linear infinite; }
+      .spell-page-drift { animation: pageDrift 4.2s ease-in-out infinite; }
+      .prompt-fragment { animation: promptFloat 3.28s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <image href="../boss_phases/prompt_goblin_p2.png" x="0" y="0" width="960" height="540" preserveAspectRatio="xMidYMid slice" filter="url(#phaseImage)"/>
+  <rect width="960" height="540" fill="url(#core)" opacity="0.42000000000000004"/>
+  <rect class="corruption-pulse" width="960" height="540" fill="#ff2bd6" fill-opacity=".04"/>
+  <rect width="960" height="540" fill="url(#scan)"/>
+  <rect class="scanline-movement" x="0" y="-540" width="960" height="86" fill="#9dff28" fill-opacity=".10"/>
+  <rect class="sweep" x="0" y="0" width="212" height="540" fill="#9dff28" fill-opacity=".045"/>
+  <path class="spin" d="M84 270C204 32 756 32 876 270C756 508 204 508 84 270Z" stroke="#ff2bd6" stroke-opacity=".16" stroke-width="5" stroke-dasharray="26 18" fill="none"/>
+  <g filter="url(#heavyGlow)">
+    <path class="energy-movement" d="M-40 80C160 10 330 164 520 80C710 -4 850 148 1000 52" stroke="#ffe95e" stroke-opacity=".42" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 206.66666666666669C160 136.66666666666669 330 290.6666666666667 520 206.66666666666669C710 122.66666666666669 850 274.6666666666667 1000 178.66666666666669" stroke="#ffe95e" stroke-opacity=".42" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 333.33333333333337C160 263.33333333333337 330 417.33333333333337 520 333.33333333333337C710 249.33333333333337 850 401.33333333333337 1000 305.33333333333337" stroke="#ffe95e" stroke-opacity=".42" stroke-width="5" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 460C160 390 330 544 520 460C710 376 850 528 1000 432" stroke="#ffe95e" stroke-opacity=".42" stroke-width="6" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="corruption-pulse" d="M80 70L104 104L88 142L126 188" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M217 153L241 187L225 225L263 271" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M354 236L378 270L362 308L400 354" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M491 319L515 353L499 391L537 437" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M628 402L652 436L636 474L674 520" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M765 105L789 139L773 177L811 223" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M112 188L136 222L120 260L158 306" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M249 271L273 305L257 343L295 389" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <circle class="pulsing-glow" cx="482" cy="292" r="158" fill="#ffe95e" fill-opacity=".12" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="438" cy="226" r="9" fill="#ffe95e" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="522" cy="226" r="9" fill="#ffe95e" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="reactor-flicker" cx="482" cy="292" r="62" fill="#9dff28" fill-opacity="0.22" filter="url(#glow)"/>
+    <circle class="corruption-pulse" cx="482" cy="292" r="120" stroke="#ff2bd6" stroke-opacity="0.38" stroke-width="8" fill="none"/>
+    <path class="threat-indicator-pulse" d="M36 42H214L250 78H36Z" fill="#020713" fill-opacity=".78" stroke="#9dff28" stroke-width="2"/>
+    <text class="energy-movement" x="86" y="64" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">{}</text>
+    <text class="energy-movement" x="177" y="117" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">&amp;&amp;</text>
+    <text class="energy-movement" x="268" y="170" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">!!</text>
+    <text class="energy-movement" x="359" y="223" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">RUN</text>
+    <text class="energy-movement" x="450" y="276" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">SYS</text>
+    <text class="energy-movement" x="541" y="329" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">&gt;&gt;</text>
+    <text class="energy-movement" x="632" y="382" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">{}</text>
+    <text class="energy-movement" x="723" y="435" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">&amp;&amp;</text>
+    <text class="energy-movement" x="814" y="68" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">!!</text>
+    <text class="energy-movement" x="105" y="121" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">RUN</text>
+    <text class="energy-movement" x="196" y="174" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">SYS</text>
+    <text class="energy-movement" x="287" y="227" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">&gt;&gt;</text>
+    <text class="energy-movement" x="378" y="280" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">{}</text>
+    <text class="energy-movement" x="469" y="333" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">&amp;&amp;</text>
+    <text class="energy-movement" x="560" y="386" fill="#ffe95e" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">!!</text>
+    <text class="energy-movement" x="651" y="439" fill="#ff2bd6" fill-opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">RUN</text>
+    <circle class="magic-circle-rotate" cx="480" cy="286" r="154" stroke="#ff2bd6" stroke-width="6" stroke-opacity=".42" stroke-dasharray="18 14" fill="none"/>
+    <circle class="magic-circle-rotate" cx="480" cy="286" r="218" stroke="#ffe95e" stroke-width="4" stroke-opacity=".32" stroke-dasharray="28 20" fill="none"/>
+    <g class="spell-page-drift">
+      <path d="M76 78L118 68L130 122L86 134Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M88 94H118M90 108H114" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M227 161L269 151L281 205L237 217Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M239 177H269M241 191H265" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M378 244L420 234L432 288L388 300Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M390 260H420M392 274H416" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M529 327L571 317L583 371L539 383Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M541 343H571M543 357H567" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M680 410L722 400L734 454L690 466Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M692 426H722M694 440H718" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M831 133L873 123L885 177L841 189Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M843 149H873M845 163H869" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M162 216L204 206L216 260L172 272Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M174 232H204M176 246H200" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M313 299L355 289L367 343L323 355Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M325 315H355M327 329H351" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M464 382L506 372L518 426L474 438Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M476 398H506M478 412H502" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M615 105L657 95L669 149L625 161Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M627 121H657M629 135H653" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <g class="spell-page-drift">
+      <path d="M766 188L808 178L820 232L776 244Z" fill="#f7fbff" fill-opacity=".16" stroke="#ffe95e" stroke-width="3"/>
+      <path d="M778 204H808M780 218H804" stroke="#ffe95e" stroke-width="2"/>
+    </g>
+    <text class="prompt-fragment" x="72" y="86" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">SYSTEM</text>
+    <text class="prompt-fragment" x="199" y="145" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">PROMPT</text>
+    <text class="prompt-fragment" x="326" y="204" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">OVERRIDE</text>
+    <text class="prompt-fragment" x="453" y="263" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">TOKEN</text>
+    <text class="prompt-fragment" x="580" y="322" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">SYSTEM</text>
+    <text class="prompt-fragment" x="707" y="381" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">PROMPT</text>
+    <text class="prompt-fragment" x="834" y="440" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">OVERRIDE</text>
+    <text class="prompt-fragment" x="145" y="123" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">TOKEN</text>
+    <text class="prompt-fragment" x="272" y="182" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">SYSTEM</text>
+    <text class="prompt-fragment" x="399" y="241" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">PROMPT</text>
+    <text class="prompt-fragment" x="526" y="300" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">OVERRIDE</text>
+    <text class="prompt-fragment" x="653" y="359" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">TOKEN</text>
+    <text class="prompt-fragment" x="780" y="418" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">SYSTEM</text>
+    <text class="prompt-fragment" x="91" y="101" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">PROMPT</text>
+    <text class="prompt-fragment" x="218" y="160" fill="#ff2bd6" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">OVERRIDE</text>
+    <text class="prompt-fragment" x="345" y="219" fill="#9dff28" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="900">TOKEN</text>
+    <path class="reactor-flicker" d="M188 476C312 348 646 348 780 476" stroke="#ff2bd6" stroke-width="12" stroke-opacity=".56" fill="none"/>
+    
+  </g>
+  <g filter="url(#glow)">
+    <text x="58" y="66" fill="#ffe95e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">PHASE 2</text>
+    <text x="58" y="92" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="900">Prompt Lord</text>
+    <circle class="threat-indicator-pulse" cx="902" cy="58" r="22" fill="#9dff28" filter="url(#glow)"/>
+  </g>
+</svg>

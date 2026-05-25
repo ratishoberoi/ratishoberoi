@@ -1,0 +1,20 @@
+[
+  {
+    "boss_id": "data_leak_hydra",
+    "boss_name": "The Data Leak Hydra",
+    "boss_image": "assets/bosses/data_leak_hydra_p4.svg",
+    "killer": "ratishoberoi",
+    "final_damage": 297,
+    "applied_damage": 133,
+    "timestamp": "2026-05-25T14:04:06.805Z"
+  },
+  {
+    "boss_id": "gpu_devourer",
+    "boss_name": "The GPU Devourer",
+    "boss_image": "assets/bosses/gpu_devourer_p4.svg",
+    "killer": "ratishoberoi",
+    "final_damage": 441,
+    "applied_damage": 8,
+    "timestamp": "2026-05-25T07:25:41.744Z"
+  }
+]

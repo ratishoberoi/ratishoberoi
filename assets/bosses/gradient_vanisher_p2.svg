@@ -1,0 +1,169 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Gradient Vanisher Dual Singularity</title>
+  <desc id="desc">Mutated form: its limbs smear into fading echoes that lag behind its body.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050b14"/>
+      <stop offset=".48" stop-color="#12051c"/>
+      <stop offset="1" stop-color="#061b22"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="46%" r="50%">
+      <stop offset="0" stop-color="#b8f7ff" stop-opacity=".32"/>
+      <stop offset=".45" stop-color="#7a5cff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#020713" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="9" height="9" patternUnits="userSpaceOnUse">
+      <path d="M0 0H9" stroke="#b8f7ff" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="phaseImage">
+      <feColorMatrix type="saturate" values="1.44"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.12"/>
+        <feFuncG type="linear" slope="1.04"/>
+        <feFuncB type="linear" slope="1.08"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="heavyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes pulseGlow { 0%,100% { opacity: .46; } 50% { opacity: 1; } }
+      @keyframes energyMove { to { stroke-dashoffset: -260; transform: translateX(34px); } }
+      @keyframes scanMove { 0% { transform: translateY(-540px); } 100% { transform: translateY(540px); } }
+      @keyframes reactorFlicker { 0%,100% { opacity: .34; transform: scale(.94); } 40% { opacity: .92; transform: scale(1.08); } 70% { opacity: .58; transform: scale(1.02); } }
+      @keyframes corruptionPulse { 0%,100% { opacity: .22; } 50% { opacity: .78; } }
+      @keyframes eyeGlowPulse { 0%,100% { opacity: .56; } 50% { opacity: 1; } }
+      @keyframes threatPulse { 0%,100% { opacity: .52; } 50% { opacity: 1; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes sweep { 0% { transform: translateX(-960px); } 100% { transform: translateX(960px); } }
+      @keyframes emberRise { 0% { transform: translateY(60px); opacity: 0; } 35% { opacity: .9; } 100% { transform: translateY(-220px); opacity: 0; } }
+      @keyframes mouthFire { 0%,100% { opacity: .28; transform: scaleX(.92); } 50% { opacity: .88; transform: scaleX(1.08); } }
+      @keyframes heatDistort { 0%,100% { transform: translateX(-12px); opacity: .22; } 50% { transform: translateX(14px); opacity: .62; } }
+      @keyframes smokeDrift { 0% { transform: translateX(-30px); opacity: .04; } 50% { opacity: .18; } 100% { transform: translateX(42px); opacity: .04; } }
+      @keyframes dataFall { 0% { transform: translateY(-120px); opacity: 0; } 20% { opacity: .9; } 100% { transform: translateY(560px); opacity: 0; } }
+      @keyframes lockDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(12px,-18px); } }
+      @keyframes particleDrift { 0%,100% { transform: translate(0,0); opacity: .25; } 50% { transform: translate(20px,-26px); opacity: .8; } }
+      @keyframes orbitPlanet { to { transform: rotate(360deg); } }
+      @keyframes rotateEquation { 0%,100% { transform: rotate(-2deg); opacity: .34; } 50% { transform: rotate(3deg); opacity: .84; } }
+      @keyframes voidDrift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-18px,16px); } }
+      @keyframes apparitionFade { 0%,100% { opacity: .08; transform: scale(.92); } 50% { opacity: .46; transform: scale(1.08); } }
+      @keyframes fragmentDrift { 0%,100% { transform: translateY(0) rotate(0deg); opacity: .18; } 50% { transform: translateY(-24px) rotate(8deg); opacity: .58; } }
+      @keyframes chainMove { to { stroke-dashoffset: -180; } }
+      @keyframes lightningFlash { 0%,100% { opacity: .15; } 45% { opacity: 1; } 52% { opacity: .25; } 60% { opacity: .9; } }
+      @keyframes veinSurge { to { stroke-dashoffset: -140; } }
+      @keyframes magicRotate { to { transform: rotate(360deg); } }
+      @keyframes pageDrift { 0%,100% { transform: translate(0,0) rotate(0deg); opacity: .25; } 50% { transform: translate(18px,-24px) rotate(6deg); opacity: .74; } }
+      @keyframes promptFloat { 0%,100% { transform: translateY(0); opacity: .25; } 50% { transform: translateY(-30px); opacity: .82; } }
+      .pulsing-glow { animation: pulseGlow 1.96s ease-in-out infinite; }
+      .energy-movement { animation: energyMove 4.44s linear infinite; }
+      .scanline-movement { animation: scanMove 5.1s linear infinite; }
+      .reactor-flicker { transform-box: fill-box; transform-origin: center; animation: reactorFlicker 1.44s steps(3,end) infinite; }
+      .corruption-pulse { animation: corruptionPulse 2.36s ease-in-out infinite; }
+      .eye-glow-pulse { animation: eyeGlowPulse 1.6600000000000001s ease-in-out infinite; }
+      .threat-indicator-pulse { animation: threatPulse 1.54s ease-in-out infinite; }
+      .spin { transform-origin: 480px 270px; animation: spin 10s linear infinite; }
+      .sweep { animation: sweep 5.2s linear infinite; }
+      .ember-rise { animation: emberRise 2.7s ease-out infinite; }
+      .mouth-fire { transform-box: fill-box; transform-origin: center; animation: mouthFire 1.1400000000000001s ease-in-out infinite; }
+      .heat-distortion { animation: heatDistort 2.32s ease-in-out infinite; }
+      .smoke-drift { animation: smokeDrift 5.2s ease-in-out infinite; }
+      .data-waterfall { animation: dataFall 3.84s linear infinite; }
+      .lock-drift { animation: lockDrift 3.64s ease-in-out infinite; }
+      .corruption-particle { animation: particleDrift 2.7600000000000002s ease-in-out infinite; }
+      .data-leak { animation: energyMove 3.32s linear infinite; }
+      .orbiting-planet { transform-origin: 480px 270px; animation: orbitPlanet 9.6s linear infinite; }
+      .rotating-equation { transform-box: fill-box; transform-origin: center; animation: rotateEquation 4.32s ease-in-out infinite; }
+      .void-particle-drift { animation: voidDrift 3.4s ease-in-out infinite; }
+      .orbiting-face { transform-origin: 480px 270px; animation: orbitPlanet 10.2s linear infinite; }
+      .apparition-fade { animation: apparitionFade 3.16s ease-in-out infinite; }
+      .memory-fragment { animation: fragmentDrift 4.08s ease-in-out infinite; }
+      .moving-chain { animation: chainMove 3.2399999999999998s linear infinite; }
+      .lightning-arc { animation: lightningFlash 1.48s steps(2,end) infinite; }
+      .glowing-vein { animation: veinSurge 2.7s linear infinite; }
+      .magic-circle-rotate { transform-origin: 480px 286px; animation: magicRotate 11.2s linear infinite; }
+      .spell-page-drift { animation: pageDrift 4.2s ease-in-out infinite; }
+      .prompt-fragment { animation: promptFloat 3.28s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <image href="../boss_phases/gradient_vanisher_p2.png" x="0" y="0" width="960" height="540" preserveAspectRatio="xMidYMid slice" filter="url(#phaseImage)"/>
+  <rect width="960" height="540" fill="url(#core)" opacity="0.42000000000000004"/>
+  <rect class="corruption-pulse" width="960" height="540" fill="#7a5cff" fill-opacity=".04"/>
+  <rect width="960" height="540" fill="url(#scan)"/>
+  <rect class="scanline-movement" x="0" y="-540" width="960" height="86" fill="#b8f7ff" fill-opacity=".10"/>
+  <rect class="sweep" x="0" y="0" width="212" height="540" fill="#b8f7ff" fill-opacity=".045"/>
+  <path class="spin" d="M84 270C204 32 756 32 876 270C756 508 204 508 84 270Z" stroke="#7a5cff" stroke-opacity=".16" stroke-width="5" stroke-dasharray="26 18" fill="none"/>
+  <g filter="url(#heavyGlow)">
+    <path class="energy-movement" d="M-40 80C160 10 330 164 520 80C710 -4 850 148 1000 52" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="3" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 206.66666666666669C160 136.66666666666669 330 290.6666666666667 520 206.66666666666669C710 122.66666666666669 850 274.6666666666667 1000 178.66666666666669" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 333.33333333333337C160 263.33333333333337 330 417.33333333333337 520 333.33333333333337C710 249.33333333333337 850 401.33333333333337 1000 305.33333333333337" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="5" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="energy-movement" d="M-40 460C160 390 330 544 520 460C710 376 850 528 1000 432" stroke="#ff2bd6" stroke-opacity=".42" stroke-width="6" stroke-linecap="round" stroke-dasharray="30 24" fill="none"/>
+    <path class="corruption-pulse" d="M80 70L104 104L88 142L126 188" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M217 153L241 187L225 225L263 271" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M354 236L378 270L362 308L400 354" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M491 319L515 353L499 391L537 437" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M628 402L652 436L636 474L674 520" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <path class="corruption-pulse" d="M765 105L789 139L773 177L811 223" stroke="#7a5cff" stroke-opacity=".42" stroke-width="4" fill="none"/>
+    <path class="corruption-pulse" d="M112 188L136 222L120 260L158 306" stroke="#7a5cff" stroke-opacity=".42" stroke-width="2" fill="none"/>
+    <path class="corruption-pulse" d="M249 271L273 305L257 343L295 389" stroke="#7a5cff" stroke-opacity=".42" stroke-width="3" fill="none"/>
+    <circle class="pulsing-glow" cx="482" cy="292" r="158" fill="#ff2bd6" fill-opacity=".12" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="438" cy="226" r="9" fill="#ff2bd6" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="eye-glow-pulse" cx="522" cy="226" r="9" fill="#ff2bd6" fill-opacity=".86" filter="url(#glow)"/>
+    <circle class="reactor-flicker" cx="482" cy="292" r="62" fill="#b8f7ff" fill-opacity="0.22" filter="url(#glow)"/>
+    <circle class="corruption-pulse" cx="482" cy="292" r="120" stroke="#7a5cff" stroke-opacity="0.38" stroke-width="8" fill="none"/>
+    <path class="threat-indicator-pulse" d="M36 42H214L250 78H36Z" fill="#020713" fill-opacity=".78" stroke="#b8f7ff" stroke-width="2"/>
+    <circle class="reactor-flicker" cx="220" cy="126" r="52" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="220" cy="126" r="72" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <circle class="reactor-flicker" cx="383" cy="223" r="60" fill="#010207" stroke="#ff2bd6" stroke-width="5" filter="url(#glow)"/>
+      <circle class="spin" cx="383" cy="223" r="80" stroke="#7a5cff" stroke-opacity=".58" stroke-width="4" stroke-dasharray="18 14" fill="none"/>
+    <g class="orbiting-planet"><circle cx="642" cy="152" r="10" fill="#ff2bd6"/><circle cx="702" cy="220" r="7" fill="#7a5cff"/></g>
+    <text class="rotating-equation" x="172" y="128" fill="#ff2bd6" fill-opacity=".66" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26">∂L/∂x → 0</text>
+    <text class="rotating-equation" x="610" y="430" fill="#7a5cff" fill-opacity=".62" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">Σ∇ collapse</text>
+    <circle class="void-particle-drift" cx="40" cy="70" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="129" cy="201" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="218" cy="332" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="307" cy="463" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="396" cy="174" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="485" cy="305" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="574" cy="436" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="663" cy="147" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="752" cy="278" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="841" cy="409" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="50" cy="120" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="139" cy="251" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="228" cy="382" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="317" cy="93" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="406" cy="224" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="495" cy="355" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="584" cy="486" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="673" cy="197" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="762" cy="328" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="851" cy="459" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="60" cy="170" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="149" cy="301" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="238" cy="432" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="327" cy="143" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="416" cy="274" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="505" cy="405" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="594" cy="116" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="683" cy="247" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="772" cy="378" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="861" cy="89" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="70" cy="220" r="4" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="159" cy="351" r="5" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="248" cy="482" r="2" fill="#ff2bd6" fill-opacity=".46"/>
+    <circle class="void-particle-drift" cx="337" cy="193" r="3" fill="#ff2bd6" fill-opacity=".46"/>
+    <path class="corruption-pulse" d="M128 76L824 488M846 58L96 502M304 28L612 530M54 248L924 316" stroke="#7a5cff" stroke-width="8" stroke-opacity=".62" stroke-dasharray="16 18" fill="none"/>
+    
+  </g>
+  <g filter="url(#glow)">
+    <text x="58" y="66" fill="#ff2bd6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="900">PHASE 2</text>
+    <text x="58" y="92" fill="#f7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="900">Dual Singularity</text>
+    <circle class="threat-indicator-pulse" cx="902" cy="58" r="22" fill="#b8f7ff" filter="url(#glow)"/>
+  </g>
+</svg>

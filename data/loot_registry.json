@@ -1,0 +1,40 @@
+{
+  "drop_rates": {
+    "Common": 80,
+    "Rare": 15,
+    "Epic": 4,
+    "Legendary": 0.9,
+    "Mythic": 0.1
+  },
+  "items": {
+    "Common": [
+      "Broken Dataset",
+      "Corrupted CSV",
+      "Memory Fragment",
+      "Lost Token"
+    ],
+    "Rare": [
+      "Neural Fragment",
+      "Gradient Crystal",
+      "Training Core",
+      "Prompt Shard"
+    ],
+    "Epic": [
+      "Ancient GPU",
+      "Quantum Cache",
+      "Model Heart",
+      "Tensor Prism"
+    ],
+    "Legendary": [
+      "Golden Tensor",
+      "AGI Fragment",
+      "Infinity Prompt",
+      "Neural Crown"
+    ],
+    "Mythic": [
+      "Source Code of Consciousness",
+      "The First Model",
+      "The Final Dataset"
+    ]
+  }
+}
