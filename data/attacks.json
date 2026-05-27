@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-27T11:12:49.378Z",
+    "attacker": "SBANTHIA75",
+    "attack_type": "Lucky Attack",
+    "damage": 276,
+    "applied_damage": 276,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Final Phase",
+    "defeated": false,
+    "issue_number": 17,
+    "loot": {
+      "item": "Prompt Shard",
+      "rarity": "Rare"
+    }
+  },
+  {
     "timestamp": "2026-05-27T11:12:30.094Z",
     "attacker": "SBANTHIA75",
     "attack_type": "Lucky Attack",
