@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-27T11:04:42.475Z",
+    "attacker": "SBANTHIA75",
+    "attack_type": "Critical Strike",
+    "damage": 6,
+    "applied_damage": 6,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 4,
+    "loot": {
+      "item": "Prompt Shard",
+      "rarity": "Rare"
+    }
+  },
+  {
     "timestamp": "2026-05-27T11:04:15.010Z",
     "attacker": "SBANTHIA75",
     "attack_type": "Slash",
