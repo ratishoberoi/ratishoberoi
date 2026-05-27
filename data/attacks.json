@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-27T11:08:12.751Z",
+    "attacker": "ratishoberoi",
+    "attack_type": "Lucky Attack",
+    "damage": 111,
+    "applied_damage": 111,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 5,
+    "loot": {
+      "item": "Broken Dataset",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-05-27T11:04:42.475Z",
     "attacker": "SBANTHIA75",
     "attack_type": "Critical Strike",
