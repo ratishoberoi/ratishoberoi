@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-27T11:12:16.794Z",
+    "attacker": "SBANTHIA75",
+    "attack_type": "Lucky Attack",
+    "damage": 266,
+    "applied_damage": 266,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 8,
+    "loot": {
+      "item": "Corrupted CSV",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-05-27T11:12:02.759Z",
     "attacker": "SBANTHIA75",
     "attack_type": "Lucky Attack",
