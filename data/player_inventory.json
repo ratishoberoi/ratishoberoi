@@ -76,6 +76,13 @@
         "quantity": 1,
         "first_obtained": "2026-05-27T11:04:15.010Z",
         "last_obtained": "2026-05-27T11:04:15.010Z"
+      },
+      {
+        "item": "Lost Token",
+        "rarity": "Common",
+        "quantity": 1,
+        "first_obtained": "2026-05-27T11:12:02.759Z",
+        "last_obtained": "2026-05-27T11:12:02.759Z"
       }
     ]
   }

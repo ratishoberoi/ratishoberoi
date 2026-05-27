@@ -42,18 +42,18 @@ Current focus areas:
 ## Current Boss
 
 <p align="center">
-  <img src="./assets/boss_phases/gradient_vanisher_p2.gif" alt="The Gradient Vanisher raid encounter" width="100%">
+  <img src="./assets/boss_phases/gradient_vanisher_p3.gif" alt="The Gradient Vanisher raid encounter" width="100%">
 </p>
 
 ## THE GRADIENT VANISHER
 
 ### Fading Backprop Phantom
 
-**HP 828 / 1500 (55%)**  
-`█████████████░░░░░░░░░░░`
+**HP 559 / 1500 (37%)**  
+`█████████░░░░░░░░░░░░░░░`
 
-**Phase 2 of 4**  
-Mutated form: its limbs smear into fading echoes that lag behind its body.
+**Phase 3 of 4**  
+Corrupted form: transparent fractures erase pieces of its torso and face.
 
 <p align="center">
   <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 11 | 4 |
+| Common | 80% | 12 | 4 |
 | Rare | 15% | 9 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @SBANTHIA75 found Gradient Crystal (Rare)  
-**Vault:** 20 relics held by 2 collectors  
+**Latest Drop:** @SBANTHIA75 found Lost Token (Common)  
+**Vault:** 21 relics held by 2 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 20 |
+| Total Relics Held | 21 |
 | Active Collectors | 2 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 11 | 4 |
+| Common | 80% | 12 | 4 |
 | Rare | 15% | 9 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare |
 | 2026-05-27T11:08:12.751Z | @ratishoberoi | Broken Dataset | Common |
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Prompt Shard | Rare |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-25T14:34:03.498Z | @ratishoberoi | Neural Fragment | Rare |
 | 2026-05-25T14:33:33.169Z | @ratishoberoi | Broken Dataset | Common |
 | 2026-05-25T14:04:06.805Z | @ratishoberoi | Corrupted CSV | Common |
-| 2026-05-25T14:03:37.524Z | @ratishoberoi | Corrupted CSV | Common |
 
 ### Legendary Discoveries
 
@@ -144,12 +144,13 @@ No mythic relics discovered yet.
 | Rank | Collector | Total Relics | Unique | Legendary | Mythic |
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
-| 2 | @SBANTHIA75 | 3 | 3 | 0 | 0 |
+| 2 | @SBANTHIA75 | 4 | 4 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common | 269 |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare | 452 |
 | 2026-05-27T11:08:12.751Z | @ratishoberoi | Broken Dataset | Common | 111 |
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Prompt Shard | Rare | 6 |
@@ -159,7 +160,6 @@ No mythic relics discovered yet.
 | 2026-05-25T14:34:03.498Z | @ratishoberoi | Neural Fragment | Rare | 16 |
 | 2026-05-25T14:33:33.169Z | @ratishoberoi | Broken Dataset | Common | 8 |
 | 2026-05-25T14:04:06.805Z | @ratishoberoi | Corrupted CSV | Common | 297 |
-| 2026-05-25T14:03:37.524Z | @ratishoberoi | Corrupted CSV | Common | 118 |
 
 </details>
 
@@ -174,8 +174,8 @@ No mythic relics discovered yet.
 > ### 🥈 #2 Raider
 > **@SBANTHIA75**
 >
-> **Total Damage:** 474  
-> **Attacks:** 3
+> **Total Damage:** 743  
+> **Attacks:** 4
 
 > ### 🥉 #3 Raider
 > **Open Slot**
@@ -188,7 +188,7 @@ No mythic relics discovered yet.
 | Rank | Attacker | Total Damage | Attacks |
 | ---: | --- | ---: | ---: |
 | 1 | @ratishoberoi | 1568 | 17 |
-| 2 | @SBANTHIA75 | 474 | 3 |
+| 2 | @SBANTHIA75 | 743 | 4 |
 
 ### Current Record Holders
 
@@ -202,6 +202,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lucky Attack | 269 | Phase 3 |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Lucky Attack | 452 | Phase 2 |
 | 2026-05-27T11:08:12.751Z | @ratishoberoi | Lucky Attack | 111 | Phase 1 |
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Critical Strike | 6 | Phase 1 |
@@ -211,12 +212,11 @@ No mythic relics discovered yet.
 | 2026-05-25T14:34:03.498Z | @ratishoberoi | Slash | 16 | Phase 1 |
 | 2026-05-25T14:33:33.169Z | @ratishoberoi | Slash | 8 | Phase 1 |
 | 2026-05-25T14:04:06.805Z | @ratishoberoi | Lucky Attack | 297 | Defeated boss |
-| 2026-05-25T14:03:37.524Z | @ratishoberoi | Lucky Attack | 118 | Phase 3 |
 
 ## Live Pulse
 
-**Last Attack:** @SBANTHIA75 hit for 452  
-**Latest Loot:** @SBANTHIA75 found Gradient Crystal (Rare)  
+**Last Attack:** @SBANTHIA75 hit for 269  
+**Latest Loot:** @SBANTHIA75 found Lost Token (Common)  
 **Top Raider:** @ratishoberoi with 1568 damage  
 **Boss Killer:** @ratishoberoi (Hydra Hunter)
 
@@ -230,13 +230,13 @@ No mythic relics discovered yet.
       <sub>Phase 1</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p2.png" alt="The Gradient Vanisher phase 2" width="210">
-      <br><strong>🔥 CURRENT</strong><br>
+      <img src="./assets/boss_phases/gradient_vanisher_p2.png" alt="The Gradient Vanisher phase 2" width="170">
+      <br><strong>✓ CLEARED</strong><br>
       <sub>Phase 2</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p3.png" alt="The Gradient Vanisher phase 3" width="170" style="opacity:0.42; filter:grayscale(1);">
-      <br><strong>🔒 LOCKED</strong><br>
+      <img src="./assets/boss_phases/gradient_vanisher_p3.png" alt="The Gradient Vanisher phase 3" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
       <sub>Phase 3</sub>
     </td>
     <td align="center" width="25%">
@@ -247,9 +247,9 @@ No mythic relics discovered yet.
   </tr>
 </table>
 
-**✓ Phase 1 → 🔥 Phase 2 → 🔒 Phase 3 → 🔒 Phase 4**  
-Current transformation: Mutated form: its limbs smear into fading echoes that lag behind its body.  
-Phases remaining: **2**
+**✓ Phase 1 → ✓ Phase 2 → 🔥 Phase 3 → 🔒 Phase 4**  
+Current transformation: Corrupted form: transparent fractures erase pieces of its torso and face.  
+Phases remaining: **1**
 
 ## WORLD BOSS CAMPAIGN
 
@@ -268,9 +268,9 @@ Phases remaining: **2**
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/gradient_vanisher_p2.png" alt="The Gradient Vanisher campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <img src="./assets/boss_phases/gradient_vanisher_p3.png" alt="The Gradient Vanisher campaign artwork" width="360" style="border:2px solid #ffbf2e;">
       <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 3: The Gradient Vanisher</strong><br><sub>HP 828 / 1500<br>Phase 2</sub>
+      <strong>Boss 3: The Gradient Vanisher</strong><br><sub>HP 559 / 1500<br>Phase 3</sub>
     </td>
     <td align="center" width="50%">
       <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
