@@ -1,14 +1,14 @@
 [
   {
+    "username": "SBANTHIA75",
+    "total_damage": 1813,
+    "attacks": 10,
+    "last_attack_at": "2026-05-27T11:14:28.855Z"
+  },
+  {
     "username": "ratishoberoi",
     "total_damage": 1568,
     "attacks": 17,
     "last_attack_at": "2026-05-27T11:08:12.751Z"
-  },
-  {
-    "username": "SBANTHIA75",
-    "total_damage": 1365,
-    "attacks": 9,
-    "last_attack_at": "2026-05-27T11:14:14.633Z"
   }
 ]
