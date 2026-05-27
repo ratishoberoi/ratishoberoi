@@ -2,6 +2,6 @@
   "boss_id": "hallucination_titan",
   "boss_name": "The Hallucination Titan",
   "max_hp": 1750,
-  "current_hp": 1239,
-  "phase": "Phase 1"
+  "current_hp": 859,
+  "phase": "Phase 2"
 }
