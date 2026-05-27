@@ -42,18 +42,18 @@ Current focus areas:
 ## Current Boss
 
 <p align="center">
-  <img src="./assets/boss_phases/gradient_vanisher_p4.gif" alt="The Gradient Vanisher raid encounter" width="100%">
+  <img src="./assets/boss_phases/hallucination_titan_p1.gif" alt="The Hallucination Titan raid encounter" width="100%">
 </p>
 
-## THE GRADIENT VANISHER
+## THE HALLUCINATION TITAN
 
-### Fading Backprop Phantom
+### Corrupted AI God
 
-**HP 13 / 1500 (1%)**  
-`░░░░░░░░░░░░░░░░░░░░░░░░`
+**HP 1750 / 1750 (100%)**  
+`████████████████████████`
 
-**Final Phase of 4**  
-Final Nightmare form: a near-invisible void outlined by collapsing signal ghosts.
+**Phase 1 of 4**  
+Normal form: a luminous titan wrapped in stable prediction rings.
 
 <p align="center">
   <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 14 | 4 |
+| Common | 80% | 15 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @SBANTHIA75 found Prompt Shard (Rare)  
-**Vault:** 24 relics held by 2 collectors  
+**Latest Drop:** @SBANTHIA75 found Broken Dataset (Common)  
+**Vault:** 25 relics held by 2 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 24 |
+| Total Relics Held | 25 |
 | Active Collectors | 2 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 14 | 4 |
+| Common | 80% | 15 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Prompt Shard | Rare |
 | 2026-05-27T11:04:15.010Z | @SBANTHIA75 | Corrupted CSV | Common |
 | 2026-05-25T17:54:50.759Z | @ratishoberoi | Corrupted CSV | Common |
-| 2026-05-25T17:47:44.711Z | @ratishoberoi | Corrupted CSV | Common |
 
 ### Legendary Discoveries
 
@@ -144,12 +144,13 @@ No mythic relics discovered yet.
 | Rank | Collector | Total Relics | Unique | Legendary | Mythic |
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
-| 2 | @SBANTHIA75 | 7 | 4 | 0 | 0 |
+| 2 | @SBANTHIA75 | 8 | 5 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common | 292 |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare | 276 |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common | 4 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common | 266 |
@@ -159,7 +160,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Prompt Shard | Rare | 6 |
 | 2026-05-27T11:04:15.010Z | @SBANTHIA75 | Corrupted CSV | Common | 16 |
 | 2026-05-25T17:54:50.759Z | @ratishoberoi | Corrupted CSV | Common | 46 |
-| 2026-05-25T17:47:44.711Z | @ratishoberoi | Corrupted CSV | Common | 17 |
 
 </details>
 
@@ -174,8 +174,8 @@ No mythic relics discovered yet.
 > ### 🥈 #2 Raider
 > **@SBANTHIA75**
 >
-> **Total Damage:** 1289  
-> **Attacks:** 7
+> **Total Damage:** 1302  
+> **Attacks:** 8
 
 > ### 🥉 #3 Raider
 > **Open Slot**
@@ -188,7 +188,7 @@ No mythic relics discovered yet.
 | Rank | Attacker | Total Damage | Attacks |
 | ---: | --- | ---: | ---: |
 | 1 | @ratishoberoi | 1568 | 17 |
-| 2 | @SBANTHIA75 | 1289 | 7 |
+| 2 | @SBANTHIA75 | 1302 | 8 |
 
 ### Current Record Holders
 
@@ -202,6 +202,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Lucky Attack | 292 | Defeated boss |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Lucky Attack | 276 | Final Phase |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lucky Attack | 4 | Phase 3 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Lucky Attack | 266 | Phase 3 |
@@ -211,45 +212,44 @@ No mythic relics discovered yet.
 | 2026-05-27T11:04:42.475Z | @SBANTHIA75 | Critical Strike | 6 | Phase 1 |
 | 2026-05-27T11:04:15.010Z | @SBANTHIA75 | Slash | 16 | Phase 1 |
 | 2026-05-25T17:54:50.759Z | @ratishoberoi | Critical Strike | 46 | Phase 1 |
-| 2026-05-25T17:47:44.711Z | @ratishoberoi | Slash | 17 | Phase 1 |
 
 ## Live Pulse
 
-**Last Attack:** @SBANTHIA75 hit for 276  
-**Latest Loot:** @SBANTHIA75 found Prompt Shard (Rare)  
+**Last Attack:** @SBANTHIA75 hit for 292  
+**Latest Loot:** @SBANTHIA75 found Broken Dataset (Common)  
 **Top Raider:** @ratishoberoi with 1568 damage  
-**Boss Killer:** @ratishoberoi (Hydra Hunter)
+**Boss Killer:** @SBANTHIA75 (Reality Anchor)
 
 ## Phase Evolution
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p1.png" alt="The Gradient Vanisher phase 1" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan phase 1" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
       <sub>Phase 1</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p2.png" alt="The Gradient Vanisher phase 2" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan phase 2" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 2</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p3.png" alt="The Gradient Vanisher phase 3" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 3</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/gradient_vanisher_p4.png" alt="The Gradient Vanisher phase 4" width="210">
-      <br><strong>🔥 CURRENT</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan phase 4" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 4</sub>
     </td>
   </tr>
 </table>
 
-**✓ Phase 1 → ✓ Phase 2 → ✓ Phase 3 → 🔥 Phase 4**  
-Current transformation: Final Nightmare form: a near-invisible void outlined by collapsing signal ghosts.  
-Phases remaining: **0**
+**🔥 Phase 1 → 🔒 Phase 2 → 🔒 Phase 3 → 🔒 Phase 4**  
+Current transformation: Normal form: a luminous titan wrapped in stable prediction rings.  
+Phases remaining: **3**
 
 ## WORLD BOSS CAMPAIGN
 
@@ -268,14 +268,14 @@ Phases remaining: **0**
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/gradient_vanisher_p4.png" alt="The Gradient Vanisher campaign artwork" width="360" style="border:2px solid #ffbf2e;">
-      <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 3: The Gradient Vanisher</strong><br><sub>HP 13 / 1500<br>Final Phase</sub>
+      <img src="./assets/boss_phases/gradient_vanisher_p4.png" alt="The Gradient Vanisher campaign artwork" width="360" style="">
+      <br><strong>☠ EXECUTED</strong><br>
+      <strong>Boss 3: The Gradient Vanisher</strong><br><sub>Executed by:<br>@SBANTHIA75<br>Badge:<br>Reality Anchor<br>2026-05-27T11:13:58.113Z</sub>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
-      <br><strong>🔒 LOCKED</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>LOCKED</sub>
+      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <br><strong>⚔ CURRENT</strong><br>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 1750 / 1750<br>Phase 1</sub>
     </td>
   </tr>
   <tr>
@@ -297,12 +297,12 @@ Phases remaining: **0**
 <table>
   <tr>
     <td align="center" width="45%">
-      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan locked next threat" width="360" style="opacity:0.45; filter:grayscale(1);">
+      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast locked next threat" width="360" style="opacity:0.45; filter:grayscale(1);">
     </td>
     <td width="55%">
-      <strong>The Hallucination Titan</strong><br>
-      A towering oracle that speaks in impossible outputs and bends reality around false predictions.<br><br>
-      <strong>Unlock Requirement:</strong> Execute The Gradient Vanisher.
+      <strong>The Overfitted Beast</strong><br>
+      A mutant model that memorized everything and learned nothing.<br><br>
+      <strong>Unlock Requirement:</strong> Execute The Hallucination Titan.
     </td>
   </tr>
 </table>
@@ -310,7 +310,7 @@ Phases remaining: **0**
 ## Executioners
 
 <p align="center">
-  <img src="./assets/defeats/data_leak_hydra_20260525T140406805Z_ratishoberoi.svg" alt="The Data Leak Hydra execution card" width="720">
+  <img src="./assets/defeats/gradient_vanisher_20260527T111358113Z_SBANTHIA75.svg" alt="The Gradient Vanisher execution card" width="720">
 </p>
 
 <details>
@@ -320,6 +320,7 @@ Phases remaining: **0**
 
 | Boss | Executioner | Badge | Final Blow | Date |
 | --- | --- | --- | ---: | --- |
+| The Gradient Vanisher | @SBANTHIA75<br>(Reality Anchor) | Reality Anchor | 292 | 2026-05-27T11:13:58.113Z |
 | The Data Leak Hydra | @ratishoberoi<br>(Hydra Hunter) | Hydra Hunter | 297 | 2026-05-25T14:04:06.805Z |
 | The GPU Devourer | @ratishoberoi<br>(GPU Slayer) | GPU Slayer | 441 | 2026-05-25T07:25:41.744Z |
 
@@ -328,6 +329,7 @@ Phases remaining: **0**
 | Executioner | Execution Count | First Execution | Latest Execution |
 | --- | ---: | --- | --- |
 | @ratishoberoi | 2 | 2026-05-25T07:25:41.744Z | 2026-05-25T14:04:06.805Z |
+| @SBANTHIA75 | 1 | 2026-05-27T11:13:58.113Z | 2026-05-27T11:13:58.113Z |
 
 </details>
 
@@ -337,6 +339,21 @@ Phases remaining: **0**
 <summary>Defeated Bosses</summary>
 
 ### Cinematic Defeat Archive
+
+<table>
+  <tr>
+    <td align="center" width="55%">
+      <img src="./assets/boss_phases/gradient_vanisher_p4.png" alt="The Gradient Vanisher final form defeated" width="420">
+    </td>
+    <td width="45%">
+      <h3>The Gradient Vanisher</h3>
+      <strong>Executioner:</strong> @SBANTHIA75<br>
+      <strong>Badge Earned:</strong> Reality Anchor<br>
+      <strong>Final Blow:</strong> 292<br>
+      <strong>Execution Date:</strong> 2026-05-27T11:13:58.113Z
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>

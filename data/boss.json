@@ -1,7 +1,7 @@
 {
-  "boss_id": "gradient_vanisher",
-  "boss_name": "The Gradient Vanisher",
-  "max_hp": 1500,
-  "current_hp": 13,
-  "phase": "Final Phase"
+  "boss_id": "hallucination_titan",
+  "boss_name": "The Hallucination Titan",
+  "max_hp": 1750,
+  "current_hp": 1750,
+  "phase": "Phase 1"
 }

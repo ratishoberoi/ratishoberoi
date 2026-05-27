@@ -1,5 +1,14 @@
 [
   {
+    "boss_id": "gradient_vanisher",
+    "boss_name": "The Gradient Vanisher",
+    "boss_image": "assets/bosses/gradient_vanisher_p4.svg",
+    "killer": "SBANTHIA75",
+    "final_damage": 292,
+    "applied_damage": 13,
+    "timestamp": "2026-05-27T11:13:58.113Z"
+  },
+  {
     "boss_id": "data_leak_hydra",
     "boss_name": "The Data Leak Hydra",
     "boss_image": "assets/bosses/data_leak_hydra_p4.svg",

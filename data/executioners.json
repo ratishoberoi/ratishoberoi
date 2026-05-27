@@ -1,5 +1,17 @@
 [
   {
+    "username": "SBANTHIA75",
+    "boss_id": "gradient_vanisher",
+    "boss_name": "The Gradient Vanisher",
+    "boss_title": "Fading Backprop Phantom",
+    "final_damage": 292,
+    "timestamp": "2026-05-27T11:13:58.113Z",
+    "boss_phase": "Final Phase",
+    "boss_image": "assets/bosses/gradient_vanisher_p4.svg",
+    "executioner_badge": "Reality Anchor",
+    "defeat_card": "assets/defeats/gradient_vanisher_20260527T111358113Z_SBANTHIA75.svg"
+  },
+  {
     "username": "ratishoberoi",
     "boss_id": "data_leak_hydra",
     "boss_name": "The Data Leak Hydra",
