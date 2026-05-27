@@ -57,6 +57,13 @@
     "username": "SBANTHIA75",
     "items": [
       {
+        "item": "Gradient Crystal",
+        "rarity": "Rare",
+        "quantity": 1,
+        "first_obtained": "2026-05-27T11:11:42.833Z",
+        "last_obtained": "2026-05-27T11:11:42.833Z"
+      },
+      {
         "item": "Prompt Shard",
         "rarity": "Rare",
         "quantity": 1,

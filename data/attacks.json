@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-27T11:11:42.833Z",
+    "attacker": "SBANTHIA75",
+    "attack_type": "Lucky Attack",
+    "damage": 452,
+    "applied_damage": 452,
+    "boss_name": "The Gradient Vanisher",
+    "phase_after_attack": "Phase 2",
+    "defeated": false,
+    "issue_number": 6,
+    "loot": {
+      "item": "Gradient Crystal",
+      "rarity": "Rare"
+    }
+  },
+  {
     "timestamp": "2026-05-27T11:08:12.751Z",
     "attacker": "ratishoberoi",
     "attack_type": "Lucky Attack",
