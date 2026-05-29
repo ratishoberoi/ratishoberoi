@@ -49,7 +49,7 @@ Current focus areas:
 
 ### Corrupted AI God
 
-**HP 859 / 1750 (49%)**  
+**HP 851 / 1750 (49%)**  
 `████████████░░░░░░░░░░░░`
 
 **Phase 2 of 4**  
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 18 | 4 |
+| Common | 80% | 19 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @SBANTHIA75 found Memory Fragment (Common)  
-**Vault:** 28 relics held by 2 collectors  
+**Latest Drop:** @sanjumahi764-cpu found Lost Token (Common)  
+**Vault:** 29 relics held by 3 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 28 |
-| Active Collectors | 2 |
+| Total Relics Held | 29 |
+| Active Collectors | 3 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 18 | 4 |
+| Common | 80% | 19 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Broken Dataset | Common |
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Broken Dataset | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare |
-| 2026-05-27T11:08:12.751Z | @ratishoberoi | Broken Dataset | Common |
 
 ### Legendary Discoveries
 
@@ -145,11 +145,13 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
 | 2 | @SBANTHIA75 | 11 | 6 | 0 | 0 |
+| 3 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common | 8 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common | 380 |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Broken Dataset | Common | 448 |
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Broken Dataset | Common | 63 |
@@ -159,7 +161,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common | 266 |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common | 269 |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare | 452 |
-| 2026-05-27T11:08:12.751Z | @ratishoberoi | Broken Dataset | Common | 111 |
 
 </details>
 
@@ -178,10 +179,10 @@ No mythic relics discovered yet.
 > **Attacks:** 17
 
 > ### 🥉 #3 Raider
-> **Open Slot**
+> **@sanjumahi764-cpu**
 >
-> **Total Damage:** 0  
-> **Attacks:** 0
+> **Total Damage:** 8  
+> **Attacks:** 1
 
 ### Top 10 Attackers
 
@@ -189,6 +190,7 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: |
 | 1 | @SBANTHIA75 | 2193 | 11 |
 | 2 | @ratishoberoi | 1568 | 17 |
+| 3 | @sanjumahi764-cpu | 8 | 1 |
 
 ### Current Record Holders
 
@@ -202,6 +204,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Slash | 8 | Phase 2 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Lucky Attack | 380 | Phase 2 |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Lucky Attack | 448 | Phase 1 |
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Lucky Attack | 63 | Phase 1 |
@@ -211,12 +214,11 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Lucky Attack | 266 | Phase 3 |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lucky Attack | 269 | Phase 3 |
 | 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Lucky Attack | 452 | Phase 2 |
-| 2026-05-27T11:08:12.751Z | @ratishoberoi | Lucky Attack | 111 | Phase 1 |
 
 ## Live Pulse
 
-**Last Attack:** @SBANTHIA75 hit for 380  
-**Latest Loot:** @SBANTHIA75 found Memory Fragment (Common)  
+**Last Attack:** @sanjumahi764-cpu hit for 8  
+**Latest Loot:** @sanjumahi764-cpu found Lost Token (Common)  
 **Top Raider:** @SBANTHIA75 with 2193 damage  
 **Boss Killer:** @SBANTHIA75 (Reality Anchor)
 
@@ -275,7 +277,7 @@ Phases remaining: **2**
     <td align="center" width="50%">
       <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
       <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 859 / 1750<br>Phase 2</sub>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 851 / 1750<br>Phase 2</sub>
     </td>
   </tr>
   <tr>
