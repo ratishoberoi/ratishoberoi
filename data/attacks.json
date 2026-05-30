@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-30T06:54:01.831Z",
+    "attacker": "GenarLoya",
+    "attack_type": "Critical Strike",
+    "damage": 36,
+    "applied_damage": 36,
+    "boss_name": "The Hallucination Titan",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 28,
+    "loot": {
+      "item": "Broken Dataset",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-05-30T06:52:03.895Z",
     "attacker": "GenarLoya",
     "attack_type": "Lucky Attack",

@@ -49,7 +49,7 @@ Current focus areas:
 
 ### Corrupted AI God
 
-**HP 541 / 1750 (31%)**  
+**HP 505 / 1750 (29%)**  
 `███████░░░░░░░░░░░░░░░░░`
 
 **Phase 3 of 4**  
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 20 | 4 |
+| Common | 80% | 21 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @GenarLoya found Lost Token (Common)  
-**Vault:** 30 relics held by 4 collectors  
+**Latest Drop:** @GenarLoya found Broken Dataset (Common)  
+**Vault:** 31 relics held by 4 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 30 |
+| Total Relics Held | 31 |
 | Active Collectors | 4 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 20 | 4 |
+| Common | 80% | 21 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common |
-| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common |
 
 ### Legendary Discoveries
 
@@ -145,13 +145,14 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
 | 2 | @SBANTHIA75 | 11 | 6 | 0 | 0 |
-| 3 | @GenarLoya | 1 | 1 | 0 | 0 |
+| 3 | @GenarLoya | 2 | 2 | 0 | 0 |
 | 4 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common | 36 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common | 310 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common | 8 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common | 380 |
@@ -161,7 +162,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare | 276 |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common | 4 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common | 266 |
-| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common | 269 |
 
 </details>
 
@@ -182,8 +182,8 @@ No mythic relics discovered yet.
 > ### 🥉 #3 Raider
 > **@GenarLoya**
 >
-> **Total Damage:** 310  
-> **Attacks:** 1
+> **Total Damage:** 346  
+> **Attacks:** 2
 
 ### Top 10 Attackers
 
@@ -191,7 +191,7 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: |
 | 1 | @SBANTHIA75 | 2193 | 11 |
 | 2 | @ratishoberoi | 1568 | 17 |
-| 3 | @GenarLoya | 310 | 1 |
+| 3 | @GenarLoya | 346 | 2 |
 | 4 | @sanjumahi764-cpu | 8 | 1 |
 
 ### Current Record Holders
@@ -206,6 +206,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-05-30T06:54:01.831Z | @GenarLoya | Critical Strike | 36 | Phase 3 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lucky Attack | 310 | Phase 3 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Slash | 8 | Phase 2 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Lucky Attack | 380 | Phase 2 |
@@ -215,12 +216,11 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Lucky Attack | 276 | Final Phase |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lucky Attack | 4 | Phase 3 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Lucky Attack | 266 | Phase 3 |
-| 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lucky Attack | 269 | Phase 3 |
 
 ## Live Pulse
 
-**Last Attack:** @GenarLoya hit for 310  
-**Latest Loot:** @GenarLoya found Lost Token (Common)  
+**Last Attack:** @GenarLoya hit for 36  
+**Latest Loot:** @GenarLoya found Broken Dataset (Common)  
 **Top Raider:** @SBANTHIA75 with 2193 damage  
 **Boss Killer:** @SBANTHIA75 (Reality Anchor)
 
@@ -279,7 +279,7 @@ Phases remaining: **1**
     <td align="center" width="50%">
       <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
       <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 541 / 1750<br>Phase 3</sub>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 505 / 1750<br>Phase 3</sub>
     </td>
   </tr>
   <tr>
