@@ -42,18 +42,18 @@ Current focus areas:
 ## Current Boss
 
 <p align="center">
-  <img src="./assets/boss_phases/hallucination_titan_p2.gif" alt="The Hallucination Titan raid encounter" width="100%">
+  <img src="./assets/boss_phases/hallucination_titan_p3.gif" alt="The Hallucination Titan raid encounter" width="100%">
 </p>
 
 ## THE HALLUCINATION TITAN
 
 ### Corrupted AI God
 
-**HP 851 / 1750 (49%)**  
-`████████████░░░░░░░░░░░░`
+**HP 541 / 1750 (31%)**  
+`███████░░░░░░░░░░░░░░░░░`
 
-**Phase 2 of 4**  
-Mutated form: duplicate faces split from its skull and argue across the arena.
+**Phase 3 of 4**  
+Corrupted form: error sigils tear through its body as hallucinated limbs emerge.
 
 <p align="center">
   <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 19 | 4 |
+| Common | 80% | 20 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @sanjumahi764-cpu found Lost Token (Common)  
-**Vault:** 29 relics held by 3 collectors  
+**Latest Drop:** @GenarLoya found Lost Token (Common)  
+**Vault:** 30 relics held by 4 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 29 |
-| Active Collectors | 3 |
+| Total Relics Held | 30 |
+| Active Collectors | 4 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 19 | 4 |
+| Common | 80% | 20 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Broken Dataset | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common |
-| 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare |
 
 ### Legendary Discoveries
 
@@ -145,12 +145,14 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
 | 2 | @SBANTHIA75 | 11 | 6 | 0 | 0 |
-| 3 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
+| 3 | @GenarLoya | 1 | 1 | 0 | 0 |
+| 4 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common | 310 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common | 8 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Memory Fragment | Common | 380 |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Broken Dataset | Common | 448 |
@@ -160,7 +162,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common | 4 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common | 266 |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lost Token | Common | 269 |
-| 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Gradient Crystal | Rare | 452 |
 
 </details>
 
@@ -179,9 +180,9 @@ No mythic relics discovered yet.
 > **Attacks:** 17
 
 > ### 🥉 #3 Raider
-> **@sanjumahi764-cpu**
+> **@GenarLoya**
 >
-> **Total Damage:** 8  
+> **Total Damage:** 310  
 > **Attacks:** 1
 
 ### Top 10 Attackers
@@ -190,7 +191,8 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: |
 | 1 | @SBANTHIA75 | 2193 | 11 |
 | 2 | @ratishoberoi | 1568 | 17 |
-| 3 | @sanjumahi764-cpu | 8 | 1 |
+| 3 | @GenarLoya | 310 | 1 |
+| 4 | @sanjumahi764-cpu | 8 | 1 |
 
 ### Current Record Holders
 
@@ -204,6 +206,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-05-30T06:52:03.895Z | @GenarLoya | Lucky Attack | 310 | Phase 3 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Slash | 8 | Phase 2 |
 | 2026-05-27T11:14:44.856Z | @SBANTHIA75 | Lucky Attack | 380 | Phase 2 |
 | 2026-05-27T11:14:28.855Z | @SBANTHIA75 | Lucky Attack | 448 | Phase 1 |
@@ -213,12 +216,11 @@ No mythic relics discovered yet.
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lucky Attack | 4 | Phase 3 |
 | 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Lucky Attack | 266 | Phase 3 |
 | 2026-05-27T11:12:02.759Z | @SBANTHIA75 | Lucky Attack | 269 | Phase 3 |
-| 2026-05-27T11:11:42.833Z | @SBANTHIA75 | Lucky Attack | 452 | Phase 2 |
 
 ## Live Pulse
 
-**Last Attack:** @sanjumahi764-cpu hit for 8  
-**Latest Loot:** @sanjumahi764-cpu found Lost Token (Common)  
+**Last Attack:** @GenarLoya hit for 310  
+**Latest Loot:** @GenarLoya found Lost Token (Common)  
 **Top Raider:** @SBANTHIA75 with 2193 damage  
 **Boss Killer:** @SBANTHIA75 (Reality Anchor)
 
@@ -232,13 +234,13 @@ No mythic relics discovered yet.
       <sub>Phase 1</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan phase 2" width="210">
-      <br><strong>🔥 CURRENT</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan phase 2" width="170">
+      <br><strong>✓ CLEARED</strong><br>
       <sub>Phase 2</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="170" style="opacity:0.42; filter:grayscale(1);">
-      <br><strong>🔒 LOCKED</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
       <sub>Phase 3</sub>
     </td>
     <td align="center" width="25%">
@@ -249,9 +251,9 @@ No mythic relics discovered yet.
   </tr>
 </table>
 
-**✓ Phase 1 → 🔥 Phase 2 → 🔒 Phase 3 → 🔒 Phase 4**  
-Current transformation: Mutated form: duplicate faces split from its skull and argue across the arena.  
-Phases remaining: **2**
+**✓ Phase 1 → ✓ Phase 2 → 🔥 Phase 3 → 🔒 Phase 4**  
+Current transformation: Corrupted form: error sigils tear through its body as hallucinated limbs emerge.  
+Phases remaining: **1**
 
 ## WORLD BOSS CAMPAIGN
 
@@ -275,9 +277,9 @@ Phases remaining: **2**
       <strong>Boss 3: The Gradient Vanisher</strong><br><sub>Executed by:<br>@SBANTHIA75<br>Badge:<br>Reality Anchor<br>2026-05-27T11:13:58.113Z</sub>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
       <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 851 / 1750<br>Phase 2</sub>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 541 / 1750<br>Phase 3</sub>
     </td>
   </tr>
   <tr>

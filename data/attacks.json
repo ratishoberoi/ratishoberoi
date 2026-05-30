@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-05-30T06:52:03.895Z",
+    "attacker": "GenarLoya",
+    "attack_type": "Lucky Attack",
+    "damage": 310,
+    "applied_damage": 310,
+    "boss_name": "The Hallucination Titan",
+    "phase_after_attack": "Phase 3",
+    "defeated": false,
+    "issue_number": 27,
+    "loot": {
+      "item": "Lost Token",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-05-29T07:23:18.763Z",
     "attacker": "sanjumahi764-cpu",
     "attack_type": "Slash",
