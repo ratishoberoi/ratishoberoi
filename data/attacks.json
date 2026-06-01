@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-06-01T18:23:21.493Z",
+    "attacker": "maanvibansal",
+    "attack_type": "Lucky Attack",
+    "damage": 434,
+    "applied_damage": 33,
+    "boss_name": "The Hallucination Titan",
+    "phase_after_attack": "Final Phase",
+    "defeated": true,
+    "issue_number": 30,
+    "loot": {
+      "item": "Memory Fragment",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-06-01T18:20:30.843Z",
     "attacker": "maanvibansal",
     "attack_type": "Lucky Attack",

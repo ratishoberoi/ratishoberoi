@@ -128,6 +128,13 @@
         "quantity": 1,
         "first_obtained": "2026-06-01T18:20:30.843Z",
         "last_obtained": "2026-06-01T18:20:30.843Z"
+      },
+      {
+        "item": "Memory Fragment",
+        "rarity": "Common",
+        "quantity": 1,
+        "first_obtained": "2026-06-01T18:23:21.493Z",
+        "last_obtained": "2026-06-01T18:23:21.493Z"
       }
     ]
   },

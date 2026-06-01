@@ -1,7 +1,7 @@
 {
-  "boss_id": "hallucination_titan",
-  "boss_name": "The Hallucination Titan",
-  "max_hp": 1750,
-  "current_hp": 33,
-  "phase": "Final Phase"
+  "boss_id": "overfitted_beast",
+  "boss_name": "The Overfitted Beast",
+  "max_hp": 2000,
+  "current_hp": 2000,
+  "phase": "Phase 1"
 }

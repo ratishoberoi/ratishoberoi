@@ -1,5 +1,17 @@
 [
   {
+    "username": "maanvibansal",
+    "boss_id": "hallucination_titan",
+    "boss_name": "The Hallucination Titan",
+    "boss_title": "Corrupted AI God",
+    "final_damage": 434,
+    "timestamp": "2026-06-01T18:23:21.493Z",
+    "boss_phase": "Final Phase",
+    "boss_image": "assets/bosses/hallucination_titan_p4.svg",
+    "executioner_badge": "Titan Breaker",
+    "defeat_card": "assets/defeats/hallucination_titan_20260601T182321493Z_maanvibansal.svg"
+  },
+  {
     "username": "SBANTHIA75",
     "boss_id": "gradient_vanisher",
     "boss_name": "The Gradient Vanisher",

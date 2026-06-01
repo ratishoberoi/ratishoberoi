@@ -42,18 +42,18 @@ Current focus areas:
 ## Current Boss
 
 <p align="center">
-  <img src="./assets/boss_phases/hallucination_titan_p4.gif" alt="The Hallucination Titan raid encounter" width="100%">
+  <img src="./assets/boss_phases/overfitted_beast_p1.gif" alt="The Overfitted Beast raid encounter" width="100%">
 </p>
 
-## THE HALLUCINATION TITAN
+## THE OVERFITTED BEAST
 
-### Corrupted AI God
+### Training-Data Abomination
 
-**HP 33 / 1750 (2%)**  
-`░░░░░░░░░░░░░░░░░░░░░░░░`
+**HP 2000 / 2000 (100%)**  
+`████████████████████████`
 
-**Final Phase of 4**  
-Final Nightmare form: a fractured godhead broadcasting contradictory realities.
+**Phase 1 of 4**  
+Normal form: a chained beast covered in neat dataset labels.
 
 <p align="center">
   <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 22 | 4 |
+| Common | 80% | 23 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @maanvibansal found Broken Dataset (Common)  
-**Vault:** 32 relics held by 5 collectors  
+**Latest Drop:** @maanvibansal found Memory Fragment (Common)  
+**Vault:** 33 relics held by 5 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 32 |
+| Total Relics Held | 33 |
 | Active Collectors | 5 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 22 | 4 |
+| Common | 80% | 23 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-06-01T18:23:21.493Z | @maanvibansal | Memory Fragment | Common |
 | 2026-06-01T18:20:30.843Z | @maanvibansal | Broken Dataset | Common |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Broken Dataset | Common |
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare |
-| 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common |
 
 ### Legendary Discoveries
 
@@ -146,13 +146,14 @@ No mythic relics discovered yet.
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
 | 2 | @SBANTHIA75 | 11 | 6 | 0 | 0 |
 | 3 | @GenarLoya | 2 | 2 | 0 | 0 |
-| 4 | @maanvibansal | 1 | 1 | 0 | 0 |
+| 4 | @maanvibansal | 2 | 2 | 0 | 0 |
 | 5 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-06-01T18:23:21.493Z | @maanvibansal | Memory Fragment | Common | 434 |
 | 2026-06-01T18:20:30.843Z | @maanvibansal | Broken Dataset | Common | 472 |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common | 36 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common | 310 |
@@ -162,7 +163,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Broken Dataset | Common | 63 |
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common | 292 |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare | 276 |
-| 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common | 4 |
 
 </details>
 
@@ -183,8 +183,8 @@ No mythic relics discovered yet.
 > ### 🥉 #3 Raider
 > **@maanvibansal**
 >
-> **Total Damage:** 472  
-> **Attacks:** 1
+> **Total Damage:** 505  
+> **Attacks:** 2
 
 ### Top 10 Attackers
 
@@ -192,7 +192,7 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: |
 | 1 | @SBANTHIA75 | 2193 | 11 |
 | 2 | @ratishoberoi | 1568 | 17 |
-| 3 | @maanvibansal | 472 | 1 |
+| 3 | @maanvibansal | 505 | 2 |
 | 4 | @GenarLoya | 346 | 2 |
 | 5 | @sanjumahi764-cpu | 8 | 1 |
 
@@ -208,6 +208,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-06-01T18:23:21.493Z | @maanvibansal | Lucky Attack | 434 | Defeated boss |
 | 2026-06-01T18:20:30.843Z | @maanvibansal | Lucky Attack | 472 | Final Phase |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Critical Strike | 36 | Phase 3 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lucky Attack | 310 | Phase 3 |
@@ -217,45 +218,44 @@ No mythic relics discovered yet.
 | 2026-05-27T11:14:14.633Z | @SBANTHIA75 | Lucky Attack | 63 | Phase 1 |
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Lucky Attack | 292 | Defeated boss |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Lucky Attack | 276 | Final Phase |
-| 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lucky Attack | 4 | Phase 3 |
 
 ## Live Pulse
 
-**Last Attack:** @maanvibansal hit for 472  
-**Latest Loot:** @maanvibansal found Broken Dataset (Common)  
+**Last Attack:** @maanvibansal hit for 434  
+**Latest Loot:** @maanvibansal found Memory Fragment (Common)  
 **Top Raider:** @SBANTHIA75 with 2193 damage  
-**Boss Killer:** @SBANTHIA75 (Reality Anchor)
+**Boss Killer:** @maanvibansal (Titan Breaker)
 
 ## Phase Evolution
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p1.png" alt="The Hallucination Titan phase 1" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast phase 1" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
       <sub>Phase 1</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p2.png" alt="The Hallucination Titan phase 2" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/overfitted_beast_p2.png" alt="The Overfitted Beast phase 2" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 2</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="170">
-      <br><strong>✓ CLEARED</strong><br>
+      <img src="./assets/boss_phases/overfitted_beast_p3.png" alt="The Overfitted Beast phase 3" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 3</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan phase 4" width="210">
-      <br><strong>🔥 CURRENT</strong><br>
+      <img src="./assets/boss_phases/overfitted_beast_p4.png" alt="The Overfitted Beast phase 4" width="170" style="opacity:0.42; filter:grayscale(1);">
+      <br><strong>🔒 LOCKED</strong><br>
       <sub>Phase 4</sub>
     </td>
   </tr>
 </table>
 
-**✓ Phase 1 → ✓ Phase 2 → ✓ Phase 3 → 🔥 Phase 4**  
-Current transformation: Final Nightmare form: a fractured godhead broadcasting contradictory realities.  
-Phases remaining: **0**
+**🔥 Phase 1 → 🔒 Phase 2 → 🔒 Phase 3 → 🔒 Phase 4**  
+Current transformation: Normal form: a chained beast covered in neat dataset labels.  
+Phases remaining: **3**
 
 ## WORLD BOSS CAMPAIGN
 
@@ -279,16 +279,16 @@ Phases remaining: **0**
       <strong>Boss 3: The Gradient Vanisher</strong><br><sub>Executed by:<br>@SBANTHIA75<br>Badge:<br>Reality Anchor<br>2026-05-27T11:13:58.113Z</sub>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
-      <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 33 / 1750<br>Final Phase</sub>
+      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan campaign artwork" width="360" style="">
+      <br><strong>☠ EXECUTED</strong><br>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>Executed by:<br>@maanvibansal<br>Badge:<br>Titan Breaker<br>2026-06-01T18:23:21.493Z</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
-      <br><strong>🔒 LOCKED</strong><br>
-      <strong>Boss 5: The Overfitted Beast</strong><br><sub>LOCKED</sub>
+      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <br><strong>⚔ CURRENT</strong><br>
+      <strong>Boss 5: The Overfitted Beast</strong><br><sub>HP 2000 / 2000<br>Phase 1</sub>
     </td>
     <td align="center" width="50%">
       <img src="./assets/boss_phases/prompt_goblin_p1.png" alt="The Prompt Goblin campaign artwork" width="360" style="opacity:0.35; filter:grayscale(1);">
@@ -303,12 +303,12 @@ Phases remaining: **0**
 <table>
   <tr>
     <td align="center" width="45%">
-      <img src="./assets/boss_phases/overfitted_beast_p1.png" alt="The Overfitted Beast locked next threat" width="360" style="opacity:0.45; filter:grayscale(1);">
+      <img src="./assets/boss_phases/prompt_goblin_p1.png" alt="The Prompt Goblin locked next threat" width="360" style="opacity:0.45; filter:grayscale(1);">
     </td>
     <td width="55%">
-      <strong>The Overfitted Beast</strong><br>
-      A mutant model that memorized everything and learned nothing.<br><br>
-      <strong>Unlock Requirement:</strong> Execute The Hallucination Titan.
+      <strong>The Prompt Goblin</strong><br>
+      A small, vicious prompt thief that rewrites instructions while laughing in terminal noise.<br><br>
+      <strong>Unlock Requirement:</strong> Execute The Overfitted Beast.
     </td>
   </tr>
 </table>
@@ -316,7 +316,7 @@ Phases remaining: **0**
 ## Executioners
 
 <p align="center">
-  <img src="./assets/defeats/gradient_vanisher_20260527T111358113Z_SBANTHIA75.svg" alt="The Gradient Vanisher execution card" width="720">
+  <img src="./assets/defeats/hallucination_titan_20260601T182321493Z_maanvibansal.svg" alt="The Hallucination Titan execution card" width="720">
 </p>
 
 <details>
@@ -326,6 +326,7 @@ Phases remaining: **0**
 
 | Boss | Executioner | Badge | Final Blow | Date |
 | --- | --- | --- | ---: | --- |
+| The Hallucination Titan | @maanvibansal<br>(Titan Breaker) | Titan Breaker | 434 | 2026-06-01T18:23:21.493Z |
 | The Gradient Vanisher | @SBANTHIA75<br>(Reality Anchor) | Reality Anchor | 292 | 2026-05-27T11:13:58.113Z |
 | The Data Leak Hydra | @ratishoberoi<br>(Hydra Hunter) | Hydra Hunter | 297 | 2026-05-25T14:04:06.805Z |
 | The GPU Devourer | @ratishoberoi<br>(GPU Slayer) | GPU Slayer | 441 | 2026-05-25T07:25:41.744Z |
@@ -335,6 +336,7 @@ Phases remaining: **0**
 | Executioner | Execution Count | First Execution | Latest Execution |
 | --- | ---: | --- | --- |
 | @ratishoberoi | 2 | 2026-05-25T07:25:41.744Z | 2026-05-25T14:04:06.805Z |
+| @maanvibansal | 1 | 2026-06-01T18:23:21.493Z | 2026-06-01T18:23:21.493Z |
 | @SBANTHIA75 | 1 | 2026-05-27T11:13:58.113Z | 2026-05-27T11:13:58.113Z |
 
 </details>
@@ -345,6 +347,21 @@ Phases remaining: **0**
 <summary>Defeated Bosses</summary>
 
 ### Cinematic Defeat Archive
+
+<table>
+  <tr>
+    <td align="center" width="55%">
+      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan final form defeated" width="420">
+    </td>
+    <td width="45%">
+      <h3>The Hallucination Titan</h3>
+      <strong>Executioner:</strong> @maanvibansal<br>
+      <strong>Badge Earned:</strong> Titan Breaker<br>
+      <strong>Final Blow:</strong> 434<br>
+      <strong>Execution Date:</strong> 2026-06-01T18:23:21.493Z
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>

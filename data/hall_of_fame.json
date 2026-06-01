@@ -1,5 +1,14 @@
 [
   {
+    "boss_id": "hallucination_titan",
+    "boss_name": "The Hallucination Titan",
+    "boss_image": "assets/bosses/hallucination_titan_p4.svg",
+    "killer": "maanvibansal",
+    "final_damage": 434,
+    "applied_damage": 33,
+    "timestamp": "2026-06-01T18:23:21.493Z"
+  },
+  {
     "boss_id": "gradient_vanisher",
     "boss_name": "The Gradient Vanisher",
     "boss_image": "assets/bosses/gradient_vanisher_p4.svg",
