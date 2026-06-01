@@ -42,18 +42,18 @@ Current focus areas:
 ## Current Boss
 
 <p align="center">
-  <img src="./assets/boss_phases/hallucination_titan_p3.gif" alt="The Hallucination Titan raid encounter" width="100%">
+  <img src="./assets/boss_phases/hallucination_titan_p4.gif" alt="The Hallucination Titan raid encounter" width="100%">
 </p>
 
 ## THE HALLUCINATION TITAN
 
 ### Corrupted AI God
 
-**HP 505 / 1750 (29%)**  
-`███████░░░░░░░░░░░░░░░░░`
+**HP 33 / 1750 (2%)**  
+`░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Phase 3 of 4**  
-Corrupted form: error sigils tear through its body as hallucinated limbs emerge.
+**Final Phase of 4**  
+Final Nightmare form: a fractured godhead broadcasting contradictory realities.
 
 <p align="center">
   <strong>⬇⬇⬇ RAIDERS, STRIKE NOW ⬇⬇⬇</strong>
@@ -83,7 +83,7 @@ Takes 10 seconds. Roll damage. Claim loot. Maybe land the killing blow.
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 21 | 4 |
+| Common | 80% | 22 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -94,8 +94,8 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 <details>
 <summary>Loot Vault</summary>
 
-**Latest Drop:** @GenarLoya found Broken Dataset (Common)  
-**Vault:** 31 relics held by 4 collectors  
+**Latest Drop:** @maanvibansal found Broken Dataset (Common)  
+**Vault:** 32 relics held by 5 collectors  
 **Rare History:** 0 Legendary / 0 Mythic  
 **Top Collector:** @ratishoberoi (17 relics)
 
@@ -103,14 +103,14 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Relic Signal | Value |
 | --- | ---: |
-| Total Relics Held | 31 |
-| Active Collectors | 4 |
+| Total Relics Held | 32 |
+| Active Collectors | 5 |
 | Legendary Discoveries | 0 |
 | Mythic Discoveries | 0 |
 
 | Rarity | Drop Rate | Owned | Registry Items |
 | --- | ---: | ---: | ---: |
-| Common | 80% | 21 | 4 |
+| Common | 80% | 22 | 4 |
 | Rare | 15% | 10 | 4 |
 | Epic | 4% | 0 | 4 |
 | Legendary | 0.9% | 0 | 4 |
@@ -120,6 +120,7 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 
 | Time | Collector | Relic | Rarity |
 | --- | --- | --- | --- |
+| 2026-06-01T18:20:30.843Z | @maanvibansal | Broken Dataset | Common |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common |
@@ -129,7 +130,6 @@ Every attack is processed by GitHub Actions. Damage is applied to the shared bos
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common |
-| 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common |
 
 ### Legendary Discoveries
 
@@ -146,12 +146,14 @@ No mythic relics discovered yet.
 | 1 | @ratishoberoi | 17 | 7 | 0 | 0 |
 | 2 | @SBANTHIA75 | 11 | 6 | 0 | 0 |
 | 3 | @GenarLoya | 2 | 2 | 0 | 0 |
-| 4 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
+| 4 | @maanvibansal | 1 | 1 | 0 | 0 |
+| 5 | @sanjumahi764-cpu | 1 | 1 | 0 | 0 |
 
 ### Recent Loot
 
 | Time | Collector | Drop | Rarity | Damage |
 | --- | --- | --- | --- | ---: |
+| 2026-06-01T18:20:30.843Z | @maanvibansal | Broken Dataset | Common | 472 |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Broken Dataset | Common | 36 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lost Token | Common | 310 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Lost Token | Common | 8 |
@@ -161,7 +163,6 @@ No mythic relics discovered yet.
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Broken Dataset | Common | 292 |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Prompt Shard | Rare | 276 |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lost Token | Common | 4 |
-| 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Corrupted CSV | Common | 266 |
 
 </details>
 
@@ -180,10 +181,10 @@ No mythic relics discovered yet.
 > **Attacks:** 17
 
 > ### 🥉 #3 Raider
-> **@GenarLoya**
+> **@maanvibansal**
 >
-> **Total Damage:** 346  
-> **Attacks:** 2
+> **Total Damage:** 472  
+> **Attacks:** 1
 
 ### Top 10 Attackers
 
@@ -191,8 +192,9 @@ No mythic relics discovered yet.
 | ---: | --- | ---: | ---: |
 | 1 | @SBANTHIA75 | 2193 | 11 |
 | 2 | @ratishoberoi | 1568 | 17 |
-| 3 | @GenarLoya | 346 | 2 |
-| 4 | @sanjumahi764-cpu | 8 | 1 |
+| 3 | @maanvibansal | 472 | 1 |
+| 4 | @GenarLoya | 346 | 2 |
+| 5 | @sanjumahi764-cpu | 8 | 1 |
 
 ### Current Record Holders
 
@@ -206,6 +208,7 @@ No mythic relics discovered yet.
 
 | Time | Attacker | Attack | Damage | Result |
 | --- | --- | --- | ---: | --- |
+| 2026-06-01T18:20:30.843Z | @maanvibansal | Lucky Attack | 472 | Final Phase |
 | 2026-05-30T06:54:01.831Z | @GenarLoya | Critical Strike | 36 | Phase 3 |
 | 2026-05-30T06:52:03.895Z | @GenarLoya | Lucky Attack | 310 | Phase 3 |
 | 2026-05-29T07:23:18.763Z | @sanjumahi764-cpu | Slash | 8 | Phase 2 |
@@ -215,12 +218,11 @@ No mythic relics discovered yet.
 | 2026-05-27T11:13:58.113Z | @SBANTHIA75 | Lucky Attack | 292 | Defeated boss |
 | 2026-05-27T11:12:49.378Z | @SBANTHIA75 | Lucky Attack | 276 | Final Phase |
 | 2026-05-27T11:12:30.094Z | @SBANTHIA75 | Lucky Attack | 4 | Phase 3 |
-| 2026-05-27T11:12:16.794Z | @SBANTHIA75 | Lucky Attack | 266 | Phase 3 |
 
 ## Live Pulse
 
-**Last Attack:** @GenarLoya hit for 36  
-**Latest Loot:** @GenarLoya found Broken Dataset (Common)  
+**Last Attack:** @maanvibansal hit for 472  
+**Latest Loot:** @maanvibansal found Broken Dataset (Common)  
 **Top Raider:** @SBANTHIA75 with 2193 damage  
 **Boss Killer:** @SBANTHIA75 (Reality Anchor)
 
@@ -239,21 +241,21 @@ No mythic relics discovered yet.
       <sub>Phase 2</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="210">
-      <br><strong>🔥 CURRENT</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan phase 3" width="170">
+      <br><strong>✓ CLEARED</strong><br>
       <sub>Phase 3</sub>
     </td>
     <td align="center" width="25%">
-      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan phase 4" width="170" style="opacity:0.42; filter:grayscale(1);">
-      <br><strong>🔒 LOCKED</strong><br>
+      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan phase 4" width="210">
+      <br><strong>🔥 CURRENT</strong><br>
       <sub>Phase 4</sub>
     </td>
   </tr>
 </table>
 
-**✓ Phase 1 → ✓ Phase 2 → 🔥 Phase 3 → 🔒 Phase 4**  
-Current transformation: Corrupted form: error sigils tear through its body as hallucinated limbs emerge.  
-Phases remaining: **1**
+**✓ Phase 1 → ✓ Phase 2 → ✓ Phase 3 → 🔥 Phase 4**  
+Current transformation: Final Nightmare form: a fractured godhead broadcasting contradictory realities.  
+Phases remaining: **0**
 
 ## WORLD BOSS CAMPAIGN
 
@@ -277,9 +279,9 @@ Phases remaining: **1**
       <strong>Boss 3: The Gradient Vanisher</strong><br><sub>Executed by:<br>@SBANTHIA75<br>Badge:<br>Reality Anchor<br>2026-05-27T11:13:58.113Z</sub>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/boss_phases/hallucination_titan_p3.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
+      <img src="./assets/boss_phases/hallucination_titan_p4.png" alt="The Hallucination Titan campaign artwork" width="360" style="border:2px solid #ffbf2e;">
       <br><strong>⚔ CURRENT</strong><br>
-      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 505 / 1750<br>Phase 3</sub>
+      <strong>Boss 4: The Hallucination Titan</strong><br><sub>HP 33 / 1750<br>Final Phase</sub>
     </td>
   </tr>
   <tr>
