@@ -2,6 +2,6 @@
   "boss_id": "overfitted_beast",
   "boss_name": "The Overfitted Beast",
   "max_hp": 2000,
-  "current_hp": 2000,
+  "current_hp": 1984,
   "phase": "Phase 1"
 }

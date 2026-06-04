@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-06-04T05:41:38.864Z",
+    "attacker": "Don-Soby-2007",
+    "attack_type": "Critical Strike",
+    "damage": 16,
+    "applied_damage": 16,
+    "boss_name": "The Overfitted Beast",
+    "phase_after_attack": "Phase 1",
+    "defeated": false,
+    "issue_number": 31,
+    "loot": {
+      "item": "Lost Token",
+      "rarity": "Common"
+    }
+  },
+  {
     "timestamp": "2026-06-01T18:23:21.493Z",
     "attacker": "maanvibansal",
     "attack_type": "Lucky Attack",
